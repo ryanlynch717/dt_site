@@ -15,10 +15,10 @@
 
     "welcome-background-color": "#1F2025",
     "welcome-background-text-color": "#fff",
-    "welcome-background-image": "url(../images/compass.jpg)",
+    "welcome-background-image": "url(../images/cover.jpg)",
     "welcome-background-cta-background-color": "#2A7AE2",
     "welcome-background-cta-text-color": "#fff",
 
     "default-image": "url(../images/default-alt.svg)",
-    "logo": "url(../images/logo.png)"
+    "logo": "url(../images/dt-logo.png)"
 }
