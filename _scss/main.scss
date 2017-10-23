@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'OpenSansCondensed';
+  src: url('../fonts/OpenSans700.ttf');
+}
+@font-face {
+  font-family: 'OpenSansItalic';
+  src: url('../fonts/OpenSansCondensed300italic.ttf');
+}
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans300.ttf');
+}
+
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$nav-font: 'OpenSansCondensed';
+$nav-font-size: 1.4rem;
+$nav-font-color: #333333;
+$highlight-color: #2a7ae2;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$small: 321px;
+$medium: 569px;
+$large: 769px;
+$xlarge: 1024px;
+$xxlarge: 1280px;
+
+
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($size) {
+    @media screen and (min-width: $size) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+    "normalize",
+    "variables",
+    "base",
+    "layout",
+    "syntax-highlighting"
+;

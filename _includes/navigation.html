@@ -1,0 +1,9 @@
+{% for item in site.data.navigation.items %}
+  <a
+    class="page-link"
+    href="{{ site.baseurl }}/{{ item.url }}"
+    alt="{{ item.title }}"
+  >
+    {{ item.title }}
+  </a>
+{% endfor %}

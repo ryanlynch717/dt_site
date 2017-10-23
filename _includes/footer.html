@@ -1,0 +1,25 @@
+<footer>
+
+  {% include logo.html logo=site.data.site-info.logo-white %}
+
+  <div class="wrapper">
+    <!--<div class="site-nav">
+      {% include navigation.html %}
+    </div>-->
+    <!--<div class="social-media-links">
+      {% include social-media-links.html %}
+    </div>-->
+  </div>
+
+  <div class="copyright">
+    Copyright &copy;
+    <script type="text/javascript">
+      var d = new Date()
+      document.write(d.getFullYear())
+    </script>
+    {{ site.data.site-info.site-name }}
+  </div>
+</footer>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ "/js/custom.js" | prepend: site.baseurl }}"></script>

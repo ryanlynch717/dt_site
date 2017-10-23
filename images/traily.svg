@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="407px" height="174px" viewBox="0 0 407 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>traily</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="traily" font-family="OpenSans-Extrabold, Open Sans" font-size="144" font-weight="600" fill="#000000">
+            <tspan x="-1" y="135">traily</tspan>
+        </text>
+        <path d="M243.982131,4.40849164 C228.052025,4.40849164 215.139744,17.3484587 215.139744,33.3062517 C215.139744,35.4277279 215.364697,37.4903704 215.797298,39.480336 C219.282333,55.2823925 228.446557,68.9387471 241.033521,78.2137168 C241.860655,78.8366625 242.895437,79.2035084 244.009818,79.2035084 C244.906167,79.2035084 245.747144,78.9647125 246.470453,78.5528762 C246.785387,78.3210019 247.09686,78.0925885 247.408333,77.8641751 C259.642294,68.6757256 268.588487,55.3066182 272.108131,39.8367993 C272.571879,37.7360879 272.827979,35.5488563 272.827979,33.3062517 C272.827979,17.3484587 259.915698,4.40849164 243.982131,4.40849164 Z" id="Pin-2" stroke="#FFFFFF" stroke-width="6" fill="#2A7AE2"></path>
+        <circle id="Oval" fill="#FFFFFF" cx="244.005342" cy="34.0780412" r="15.5286545"></circle>
+    </g>
+</svg>

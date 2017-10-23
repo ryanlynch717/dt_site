@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "title": "Facebook",
+      "url": "http://facebook.com/trailyapp",
+      "image": "icons/facebook.svg"
+    },
+    {
+      "title": "Vimeo",
+      "url": "http://vimeo.com/trailyapp",
+      "image": "icons/vimeo.svg"
+    },
+    {
+      "title": "GooglePlus",
+      "url": "http://plus.google.com/trailyapp",
+      "image": "icons/google-plus.svg"
+    },
+    {
+      "title": "Instagram",
+      "url": "http://instagram.com/trailyapp",
+      "image": "icons/instagram.svg"
+    },
+    {
+      "title": "Pinterest",
+      "url": "http://pinterest.com/trailyapp",
+      "image": "icons/pinterest.svg"
+    },
+    {
+      "title": "Twitter",
+      "url": "http://twitter.com/trailyapp",
+      "image": "icons/twitter.svg"
+    }
+  ]
+}

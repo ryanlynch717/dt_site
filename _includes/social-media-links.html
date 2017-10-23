@@ -1,0 +1,9 @@
+{% for item in site.data.social-media-links.items %}
+  <a
+    class="page-link"
+    href="{{ item.url }}"
+    alt="{{ item.title }}"
+  >
+    <img src="{{ site.baseurl }}/images/{{ item.image }}" alt="{{ item.title }}" />
+  </a>
+{% endfor %}

@@ -1,0 +1,204 @@
+{
+  "site-name": "traily",
+  "site-description": "Engage and Retain your guests with location aware technology.",
+  "blog-name": "Blog",
+  "logo": "logo.svg",
+  "logo-white": "logo-white.svg",
+  "sections": [
+    {
+      "cssId": "test0",
+      "backgroundColor": "#fff",
+      "layout": {
+        "alignment": "top"
+      },
+      "content": {
+        "title": "what is traily",
+        "description": "Since the hype from Pokemon Go in 2016, geoloaction apps have soared in interest. <br />Local businesses have been trying to get themselves 'on the map' and we have been helping them. <br /><br />Until now it has felt like a very seperated approach with local businesses asking us to create an app that would allow their customers to participate in a unique trail. <br /><br />After creating numerous apps we felt there needed to be a unified approach that allowed businesses to create their own branded trails and offer it to their own clients, without the need for creating an individual app everytime. <br/><br/>And so, <span class='dot'>traily</span> was born."
+      }
+    },
+    {
+      "cssId": "test01",
+      "backgroundColor": "#eee",
+      "textColor": "#333",
+      "layout": {
+        "alignment": "cards"
+      },
+      "content": {
+        "items": [
+          {
+            "itemTitle": "No Real Time Data",
+            "textColor": "#333",
+            "icon": "chart.svg",
+            "description": "Often metrics are only available months later through surveys and questionairres sent via post. <br /><br /><span class='dot'>traily</span>"
+          },
+          {
+            "itemTitle": "Visitor Retention",
+            "textColor": "#333",
+            "icon": "single.svg",
+            "description": "Static printed trails offer no extra value when a user visits the location. <br /><br /><span class='dot'>traily</span>"
+          },
+          {
+            "itemTitle": "Outdated Print",
+            "textColor": "#333",
+            "icon": "tools.svg",
+            "description": "Update the details of your trail in our CMS and the new details are available instantly to all guests. <br /><br /><span class='dot'>traily</span>"
+          }
+        ]
+      }
+    },
+    {
+      "cssId": "test01",
+      "backgroundColor": "#333",
+      "textColor": "#fff",
+      "layout": {
+        "alignment": "columns"
+      },
+      "content": {
+        "items": [
+          {
+            "itemTitle": "85",
+            "metric": "%",
+            "textColor": "#fff",
+            "icon": "map-of-roads.svg",
+            "description": "tourists use smartphones while abroad"
+          },
+          {
+            "itemTitle": "30",
+            "metric": "%",
+            "textColor": "#fff",
+            "icon": "map-of-roads.svg",
+            "description": "travelers found accommodation via smartphones"
+          },
+          {
+            "itemTitle": "72",
+            "metric": "%",
+            "textColor": "#fff",
+            "icon": "share.svg",
+            "description": "post-vacation photos end up on social networks"
+          },
+          {
+            "itemTitle": "15",
+            "metric": "%",
+            "textColor": "#fff",
+            "icon": "cloud-computing.svg",
+            "description": "leisure travelers download tourism apps prior to their trips"
+          }
+        ]
+      }
+    },
+    {
+      "cssId": "test3",
+      "backgroundColor": "#eee",
+      "layout": {
+        "alignment": "left"
+      },
+      "image": "story/place-discovery.png",
+      "content": {
+        "icon": "map-of-roads.svg",
+        "title": "Place Discovery",
+        "description": "<span class='dot'>traily</span> makes your trails and POIs more attractive to guests by providing supplementary content that can be accessed when at the location. <br /><br />Increase dwell time and user spend by engaging you guests at the location."
+      }
+    },
+    {
+      "cssId": "test2",
+      "backgroundColor": "#fff",
+      "layout": {
+        "alignment": "right"
+      },
+      "image": "story/social-sharing.png",
+      "content": {
+        "icon": "network.svg",
+        "title": "Social Sharing",
+        "description": "<span class='dot'>traily</span> allows your guests to share to their family and friends when they are at one of your locations."
+      }
+    },
+    {
+      "cssId": "test1",
+      "backgroundColor": "#eee",
+      "layout": {
+        "alignment": "left"
+      },
+      "image": "story/offline-app.png",
+      "content": {
+        "icon": "cloud-computing.svg",
+        "title": "Offline First App",
+        "description": "Not all of your POIs will be in an area where a internet connection is available. <br /><br />The offline experience is seamless and any interactions with the app while offline will be synced to the analytics service once a network connection is reestablished. <br /><br />Mark certain POIs as network blackspots within the CMS and the app will pre-download content for offline access at these locations."
+      }
+    },
+    {
+      "cssId": "test3",
+      "backgroundColor": "#fff",
+      "layout": {
+        "alignment": "right"
+      },
+      "image": "story/inapp-cms.png",
+      "content": {
+        "icon": "duplicate-content.svg",
+        "title": "In-App CMS",
+        "description": "Fully control your trail data and create new trails directly from within the app. <br /><br />Increase dwell time by adding relevant interactive material that your guests can engage with when at the location."
+      }
+    },
+    {
+      "cssId": "test2",
+      "backgroundColor": "#eee",
+      "layout": {
+        "alignment": "left"
+      },
+      "image": "story/real-time-data.png",
+      "content": {
+        "icon": "chart.svg",
+        "title": "Real Time User Data",
+        "description": "With <span class='dot'>traily</span> you can be reactive to data trends by accessing up to the minute metrics on what your guests are doing. <br /><br />Want to know where your guests go when its a sunny day? <br /><br />Want to provide neighboring businesses with footfall metrics so they can optimise their opening hours? <br /><br />With <span class='dot'>traily</span> these questions and many more can be answered."
+      }
+    },
+    {
+      "cssId": "test1",
+      "backgroundColor": "#fff",
+      "layout": {
+        "alignment": "right"
+      },
+      "image": "story/visitor-retention.png",
+      "content": {
+        "icon": "single.svg",
+        "title": "Visitor Retention",
+        "description": "By engaging your guests with interactive material, unlocked by physically being at a location, <span class='dot'>traily</span> increases user engagement with you trail. <br /><br />This leads to increased dwell time and ultimately, increased user spend."
+      }
+    },
+    {
+      "cssId": "test01",
+      "backgroundColor": "#eee",
+      "textColor": "#333",
+      "layout": {
+        "alignment": "cards"
+      },
+      "content": {
+        "items": [
+          {
+            "itemTitle": "Create",
+            "backgroundColor": "#fff",
+            "textColor": "#333",
+            "icon": "wrench.svg",
+            "iconBackgroundColor": "#fff",
+            "description": "<span class='dot'>traily</span> allows businesses to create as many trails as they want within their own branding area of an app. <br /><br />It's simple, intuitive and quick."
+          },
+          {
+            "itemTitle": "Publish",
+            "backgroundColor": "#fff",
+            "textColor": "#333",
+            "icon": "map-of-roads.svg",
+            "iconBackgroundColor": "#fff",
+            "description": "<span class='dot'>traily</span> allows businesses to create as many trails as they want within their own branding area of an app. <br /><br />It's simple, intuitive and quick."
+          },
+          {
+            "itemTitle": "Measure",
+            "backgroundColor": "#fff",
+            "textColor": "#333",
+            "icon": "chart.svg",
+            "iconBackgroundColor": "#fff",
+            "description": "<span class='dot'>traily</span> allows businesses to create as many trails as they want within their own branding area of an app. <br /><br />It's simple, intuitive and quick."
+          }
+        ]
+      }
+    }
+  ]
+}
