@@ -413,7 +413,7 @@ section {
 
 .logo {
   height: auto;
-  width: 90px; }
+  width: 39px; }
 
 /**
  * Site header
@@ -523,7 +523,7 @@ h1 {
 section#welcome {
   -ms-flex-align: center;
       align-items: center;
-  background: #1F2025 url(../images/compass.jpg) center no-repeat;
+  background: #1F2025 url(../images/cover.jpg) center no-repeat;
   background-size: cover;
   color: #fff;
   display: -ms-flexbox;
@@ -944,7 +944,8 @@ footer {
       content: '.';
       color: #2a7ae2; }
   footer .logo {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    width: 30%; }
   footer .wrapper {
     -ms-flex-align: center;
         align-items: center;
