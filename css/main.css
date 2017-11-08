@@ -402,7 +402,7 @@ template {
   display: none; }
 
 body {
-  background-color: #fff;
+  background-color: #083a44;
   font-family: 'OpenSans';
   font-size: 16px;
   line-height: 1.5; }
@@ -424,7 +424,7 @@ section {
   /* Old browsers */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0.9) 100%);
+  background: linear-gradient(to bottom, #083a44 0%, rgba(8, 58, 68, 0.9) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
   /* IE6-9 */
@@ -436,7 +436,7 @@ section {
 .site-header .wrapper {
   -ms-flex-align: center;
       align-items: center;
-  box-shadow: 0 0 2px 2px #cccccc;
+  box-shadow: 0 0 2px 2px black;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -448,11 +448,11 @@ section {
       justify-content: flex-start; }
   .site-header .wrapper:after {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,7db9e8+100 */
-    background: white;
+    background: #33afd4;
     /* Old browsers */
     /* FF3.6-15 */
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0.9) 100%);
+    background: linear-gradient(to bottom, #083a44 0%, rgba(8, 58, 68, 0.9) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
     /* IE6-9 */
@@ -551,10 +551,10 @@ section#welcome {
     margin-bottom: 2.5rem;
     text-shadow: 0px 2px 5px black; }
   section#welcome .btn {
-    background-color: #2A7AE2;
+    background-color: #56d2f1;
     color: #fff; }
     section#welcome .btn:hover {
-      background-color: #1d6dd5; }
+      background-color: #3eccef; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "OpenSansCondensed";
@@ -859,28 +859,28 @@ section#idea {
 /**
  * Newsletter
  */
-section#newsletter {
-  background-color: #5796e8;
+section#contactus {
+  background-color: #139fc2;
   color: #fff; }
-  section#newsletter h1, section#newsletter h3, section#newsletter .btn, section#newsletter .button {
+  section#contactus h1, section#contactus h3, section#contactus .btn, section#contactus .button {
     font-family: "OpenSansCondensed";
     margin: 0 0 0.75rem;
     text-align: center;
     text-decoration: none; }
-  section#newsletter h1 {
+  section#contactus h1 {
     font-size: 2.31rem;
     padding-top: 60px;
     margin-bottom: 2rem; }
-  section#newsletter h3 {
+  section#contactus h3 {
     color: #fff;
     font-family: 'OpenSans';
     font-size: 1.26rem;
     font-weight: normal; }
-  section#newsletter div#mc_embed_signup {
+  section#contactus div#mc_embed_signup {
     background-color: transparent; }
-    section#newsletter div#mc_embed_signup h2 {
+    section#contactus div#mc_embed_signup h2 {
       display: none; }
-    section#newsletter div#mc_embed_signup .button {
+    section#contactus div#mc_embed_signup .button {
       background-color: #2a7ae2 !important;
       border-radius: 25px !important;
       color: #fff !important;
@@ -888,23 +888,23 @@ section#newsletter {
       height: 3rem !important;
       line-height: 0 !important;
       padding: 1rem 2rem !important; }
-      section#newsletter div#mc_embed_signup .button:hover {
+      section#contactus div#mc_embed_signup .button:hover {
         background-color: #1d6dd5 !important; }
-    section#newsletter div#mc_embed_signup form {
+    section#contactus div#mc_embed_signup form {
       margin: 0 auto;
       padding: 1rem 0 0;
       text-align: center;
       width: 70%; }
-      section#newsletter div#mc_embed_signup form .mc-field-group {
+      section#contactus div#mc_embed_signup form .mc-field-group {
         margin: 0;
         width: 100%; }
-        section#newsletter div#mc_embed_signup form .mc-field-group + .mc-field-group {
+        section#contactus div#mc_embed_signup form .mc-field-group + .mc-field-group {
           display: none; }
-        section#newsletter div#mc_embed_signup form .mc-field-group label {
+        section#contactus div#mc_embed_signup form .mc-field-group label {
           display: none;
           font-family: 'OpenSans';
           margin-bottom: .5rem; }
-        section#newsletter div#mc_embed_signup form .mc-field-group input {
+        section#contactus div#mc_embed_signup form .mc-field-group input {
           border-radius: 25px;
           border: none;
           margin: 0 auto;

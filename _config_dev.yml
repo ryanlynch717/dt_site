@@ -1,11 +1,11 @@
 # This file to be run when testing locally, to ensure the URLS resolve properly
 # Site settings
-title: Dev DT
+title: Dev Digital Thunder
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Helping to launch your business into the digital era, Digital Thunder can provide
+  a wide variety of high quality services from web development to graphic design and
+  advertising. Get in touch now to chat with us!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "localhost:3000" # the base hostname & protocol for your site
 twitter_username: jekyllrb

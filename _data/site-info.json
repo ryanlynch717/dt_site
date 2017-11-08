@@ -1,9 +1,9 @@
 {
-  "site-name": "DT",
+  "site-name": "Digital Thunder",
   "site-description": "Move online and engage with your audience through social platforms",
   "blog-name": "Blog",
-  "logo": "dt-logo.png",
-  "logo-white": "dthunder.png",
+  "logo": "Digital Thunder-logo.png",
+  "logo-white": "Digital Thunderhunder.png",
   "sections": [
     {
       "cssId": "test0",
@@ -12,8 +12,8 @@
         "alignment": "top"
       },
       "content": {
-        "title": "what is DT",
-        "description": "In the modern era, the the web and social media is king. As a result, small businesses struggle to attract new customers. The main reason behind this is the soaring use of digital communications. Customers now typically go online to look for the best deals before even thinking about the high street.<br /><br />Local businesses have been lagging behind for too long, it's time to get your business a strong online presence - and here at DT, we want to help!<br /><br />The services we offer include beautifully designed websites, branding, digital and physical advertising and social media marketing. We can provide any of these services with or without continous digital management, we leave it up to you to decide if you need us after delivery.<br/><br/>So, <span class='dot'>DT</span> was born."
+        "title": "what is Digital Thunder",
+        "description": "In the modern era, the web and social media is king. As a result, small businesses struggle to attract new customers. The main reason behind this is the soaring use of digital communications. Customers now typically go online to look for the best deals before even thinking about the high street.<br /><br />Local businesses have been lagging behind for too long, it's time to get your business a strong online presence - and here at Digital Thunder, we want to help!<br /><br />The services we offer include beautifully designed websites, branding, digital and physical advertising and social media marketing. We can provide any of these services with or without continous digital management, we leave it up to you to decide if you need us after delivery.<br/><br/>So, <span class='dot'>Digital Thunder</span> was born."
       }
     },
     {
@@ -29,19 +29,19 @@
             "itemTitle": "Mobile friendly",
             "textColor": "#333",
             "icon": "chart.svg",
-            "description": "Almost everyone has a smart phone these days, so your site must look beautiful on a small screen, too. <br /><br /><span class='dot'>DT</span>"
+            "description": "Almost everyone has a smart phone these days, so your site must look beautiful on a small screen, too. <br /><br /><span class='dot'>Digital Thunder</span>"
           },
           {
             "itemTitle": "Beautiful branding",
             "textColor": "#333",
             "icon": "single.svg",
-            "description": "Professionally designed logos and advertising content, which engage a potential customers' interest. <br /><br /><span class='dot'>DT</span>"
+            "description": "Professionally designed logos and advertising content, which engage a potential customers' interest. <br /><br /><span class='dot'>Digital Thunder</span>"
           },
           {
             "itemTitle": "Engaging content",
             "textColor": "#333",
             "icon": "tools.svg",
-            "description": "It's all about the digital presence, the look and content produced by your social media page will reach more potential customers every day. <br /><br /><span class='dot'>DT</span>"
+            "description": "It's all about the digital presence, the look and content produced by your social media page will reach more potential customers every day. <br /><br /><span class='dot'>Digital Thunder</span>"
           }
         ]
       }
@@ -96,7 +96,7 @@
       "content": {
         "icon": "map-of-roads.svg",
         "title": "Place Discovery",
-        "description": "<span class='dot'>DT</span> makes your trails and POIs more attractive to guests by providing supplementary content that can be accessed when at the location. <br /><br />Increase dwell time and user spend by engaging you guests at the location."
+        "description": "<span class='dot'>Digital Thunder</span> makes your trails and POIs more attractive to guests by providing supplementary content that can be accessed when at the location. <br /><br />Increase dwell time and user spend by engaging you guests at the location."
       }
     },
     {
@@ -109,7 +109,7 @@
       "content": {
         "icon": "network.svg",
         "title": "Social Sharing",
-        "description": "<span class='dot'>DT</span> allows your guests to share to their family and friends when they are at one of your locations."
+        "description": "<span class='dot'>Digital Thunder</span> allows your guests to share to their family and friends when they are at one of your locations."
       }
     },
     {
@@ -150,7 +150,7 @@
     //   "content": {
     //     "icon": "chart.svg",
     //     "title": "Real Time User Data",
-    //     "description": "With <span class='dot'>DT</span> you can be reactive to data trends by accessing up to the minute metrics on what your guests are doing. <br /><br />Want to know where your guests go when its a sunny day? <br /><br />Want to provide neighboring businesses with footfall metrics so they can optimise their opening hours? <br /><br />With <span class='dot'>DT</span> these questions and many more can be answered."
+    //     "description": "With <span class='dot'>Digital Thunder</span> you can be reactive to data trends by accessing up to the minute metrics on what your guests are doing. <br /><br />Want to know where your guests go when its a sunny day? <br /><br />Want to provide neighboring businesses with footfall metrics so they can optimise their opening hours? <br /><br />With <span class='dot'>Digital Thunder</span> these questions and many more can be answered."
     //   }
     // },
     // {
@@ -163,7 +163,7 @@
     //   "content": {
     //     "icon": "single.svg",
     //     "title": "Visitor Retention",
-    //     "description": "By engaging your guests with interactive material, unlocked by physically being at a location, <span class='dot'>DT</span> increases user engagement with you trail. <br /><br />This leads to increased dwell time and ultimately, increased user spend."
+    //     "description": "By engaging your guests with interactive material, unlocked by physically being at a location, <span class='dot'>Digital Thunder</span> increases user engagement with you trail. <br /><br />This leads to increased dwell time and ultimately, increased user spend."
     //   }
     // },
     // {
@@ -181,7 +181,7 @@
     //         "textColor": "#333",
     //         "icon": "wrench.svg",
     //         "iconBackgroundColor": "#fff",
-    //         "description": "<span class='dot'>DT</span> allows businesses to create as many trails as they want within their own branding area of an app. <br /><br />It's simple, intuitive and quick."
+    //         "description": "<span class='dot'>Digital Thunder</span> allows businesses to create as many trails as they want within their own branding area of an app. <br /><br />It's simple, intuitive and quick."
     //       },
     //       {
     //         "itemTitle": "Publish",
@@ -189,7 +189,7 @@
     //         "textColor": "#333",
     //         "icon": "map-of-roads.svg",
     //         "iconBackgroundColor": "#fff",
-    //         "description": "<span class='dot'>DT</span> allows businesses to create as many trails as they want within their own branding area of an app. <br /><br />It's simple, intuitive and quick."
+    //         "description": "<span class='dot'>Digital Thunder</span> allows businesses to create as many trails as they want within their own branding area of an app. <br /><br />It's simple, intuitive and quick."
     //       },
     //       {
     //         "itemTitle": "Measure",
@@ -197,7 +197,7 @@
     //         "textColor": "#333",
     //         "icon": "chart.svg",
     //         "iconBackgroundColor": "#fff",
-    //         "description": "<span class='dot'>DT</span> allows businesses to create as many trails as they want within their own branding area of an app. <br /><br />It's simple, intuitive and quick."
+    //         "description": "<span class='dot'>Digital Thunder</span> allows businesses to create as many trails as they want within their own branding area of an app. <br /><br />It's simple, intuitive and quick."
     //       }
     //     ]
     //   }

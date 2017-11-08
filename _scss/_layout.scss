@@ -46,7 +46,7 @@ body {
 
         &:after {
             /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,7db9e8+100 */
-            background: rgb(255,255,255); /* Old browsers */
+            background: rgb(51, 175, 212); /* Old browsers */
             background: -moz-linear-gradient(top, rgba( $primary-color, 1) 0%, rgba( $primary-color, .9) 100%); /* FF3.6-15 */
             background: -webkit-linear-gradient(top, rgba( $primary-color, 1) 0%, rgba( $primary-color, .9) 100%); /* Chrome10-25,Safari5.1-6 */
             background: linear-gradient(to bottom, rgba( $primary-color, 1) 0%, rgba( $primary-color, .9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -512,7 +512,7 @@ section#idea {
  * Newsletter
  */
 
-section#newsletter {
+section#contactus {
     background-color: $secondary-color;
     color: #fff;
 

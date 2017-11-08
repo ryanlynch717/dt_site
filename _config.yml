@@ -1,8 +1,10 @@
 # Site settings
-title: DT
+title: Digital Thunder
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Digital Thunder web development
+  Helping to launch your business into the digital era, Digital Thunder can provide
+  a wide variety of high quality services from web development to graphic design and
+  advertising. Get in touch now to chat with us!
 baseurl: "/dt_site" # the subpath of your site, e.g. /blog/
 url: "https://ryanlynch717.github.io/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
