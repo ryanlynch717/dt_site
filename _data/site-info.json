@@ -14,7 +14,7 @@
       },
       "content": {
         "title": "A bit about us",
-        "description": "In the modern era, the web and social media is king. As a result, small businesses struggle to attract new customers. The main reason behind this is the soaring use of digital communications. Customers now typically go online to look for the best deals before even thinking about the high street.<br /><br />Local businesses have been lagging behind for too long, it's time to get your business a strong online presence - and here at Digital Thunder, we want to help!<br /><br />The services we offer include beautifully designed websites, branding, digital and physical advertising and social media marketing. We can provide any of these services with or without continous digital management, we leave it up to you to decide if you need us after delivery.<br/><br/>So, <span class='dot'>Digital Thunder</span> was born."
+        "description": "In the modern era, the web and social media is king. As a result, small businesses struggle to attract new customers. The main reason behind this is the soaring use of digital communications. Customers now typically go online to look for the best deals before even thinking about the high street.<br /><br />Local businesses have been lagging behind for too long, it's time to get your business a strong online presence - and here at Digital Thunder, we want to help!<br /><br />The services we offer include beautifully designed websites, branding, digital and physical advertising and social media marketing. We can provide any of these services with or without continous digital management, we leave it up to you to decide if you need us after delivery.<br/><br/>"
       }
     },
     {
@@ -30,19 +30,19 @@
             "itemTitle": "Mobile friendly",
             "textColor": "#333",
             "icon": "chart.svg",
-            "description": "Almost everyone has a smart phone these days, so your site must look beautiful on a small screen, too. <br /><br /><span class='dot'>Digital Thunder</span>"
+            "description": "Almost everyone has a smart phone these days, so your site must look beautiful on a small screen too"
           },
           {
             "itemTitle": "Beautiful branding",
             "textColor": "#333",
             "icon": "single.svg",
-            "description": "Professionally designed logos and advertising content, which engage a potential customers' interest. <br /><br /><span class='dot'>Digital Thunder</span>"
+            "description": "Professionally designed logos and advertising content, which engage a potential customers' interest"
           },
           {
             "itemTitle": "Engaging content",
             "textColor": "#333",
             "icon": "tools.svg",
-            "description": "It's all about the digital presence, the look and content produced by your social media page will reach more potential customers every day. <br /><br /><span class='dot'>Digital Thunder</span>"
+            "description": "It's all about the digital presence, the look and content produced by your social media page will reach more potential customers every day"
           }
         ]
       }
@@ -57,32 +57,25 @@
       "content": {
         "items": [
           {
-            "itemTitle": "85",
+            "itemTitle": "80",
             "metric": "%",
             "textColor": "#fff",
-            "icon": "map-of-roads.svg",
-            "description": "tourists use smartphones while abroad"
+            // "icon": "map-of-roads.svg",
+            "description": "of consumers look for businesses online, before going to the high street"
+          },
+          {
+            "itemTitle": "65",
+            "metric": "%",
+            "textColor": "#fff",
+            // "icon": "map-of-roads.svg",
+            "description": "of businesses see their profits increase with an online presence"
           },
           {
             "itemTitle": "30",
             "metric": "%",
             "textColor": "#fff",
-            "icon": "map-of-roads.svg",
-            "description": "travelers found accommodation via smartphones"
-          },
-          {
-            "itemTitle": "72",
-            "metric": "%",
-            "textColor": "#fff",
-            "icon": "share.svg",
-            "description": "post-vacation photos end up on social networks"
-          },
-          {
-            "itemTitle": "15",
-            "metric": "%",
-            "textColor": "#fff",
-            "icon": "cloud-computing.svg",
-            "description": "leisure travelers download tourism apps prior to their trips"
+            // "icon": "share.svg",
+            "description": "of the public say recognisable branding attracts them to shop there"
           }
         ]
       }
@@ -96,8 +89,8 @@
       "image": "story/place-discovery.png",
       "content": {
         "icon": "map-of-roads.svg",
-        "title": "Place Discovery",
-        "description": "<span class='dot'>Digital Thunder</span> makes your trails and POIs more attractive to guests by providing supplementary content that can be accessed when at the location. <br /><br />Increase dwell time and user spend by engaging you guests at the location."
+        "title": "Web Design",
+        "description": "<span class='dot'>Digital Thunder</span> lorem ipsum <br /><br />"
       }
     },
     {
@@ -109,8 +102,8 @@
       "image": "story/social-sharing.png",
       "content": {
         "icon": "network.svg",
-        "title": "Social Sharing",
-        "description": "<span class='dot'>Digital Thunder</span> allows your guests to share to their family and friends when they are at one of your locations."
+        "title": "Branding Logos",
+        "description": "<span class='dot'>Digital Thunder</span>lorem ipsum <br /><br />"
       }
     },
     {
@@ -122,8 +115,8 @@
       "image": "story/offline-app.png",
       "content": {
         "icon": "cloud-computing.svg",
-        "title": "Offline First App",
-        "description": "Not all of your POIs will be in an area where a internet connection is available. <br /><br />The offline experience is seamless and any interactions with the app while offline will be synced to the analytics service once a network connection is reestablished. <br /><br />Mark certain POIs as network blackspots within the CMS and the app will pre-download content for offline access at these locations."
+        "title": "Advertising Content",
+        "description": "lorem ipsum <br /><br />"
       }
     }
   ]
