@@ -402,7 +402,7 @@ template {
   display: none; }
 
 body {
-  background-color: #083a44;
+  background-color: #49ced9;
   font-family: 'OpenSans';
   font-size: 16px;
   line-height: 1.5; }
@@ -424,7 +424,7 @@ section {
   /* Old browsers */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #083a44 0%, rgba(8, 58, 68, 0.9) 100%);
+  background: linear-gradient(to bottom, #49ced9 0%, rgba(73, 206, 217, 0.9) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
   /* IE6-9 */
@@ -436,7 +436,6 @@ section {
 .site-header .wrapper {
   -ms-flex-align: center;
       align-items: center;
-  box-shadow: 0 0 2px 2px black;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -452,7 +451,7 @@ section {
     /* Old browsers */
     /* FF3.6-15 */
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #083a44 0%, rgba(8, 58, 68, 0.9) 100%);
+    background: linear-gradient(to bottom, #49ced9 0%, rgba(73, 206, 217, 0.9) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
     /* IE6-9 */
@@ -555,6 +554,9 @@ section#welcome {
     color: #fff; }
     section#welcome .btn:hover {
       background-color: #3eccef; }
+  section#welcome img {
+    height: auto;
+    width: 70%; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "OpenSansCondensed";
@@ -960,14 +962,14 @@ footer {
       text-decoration: none; }
     footer .wrapper .site-nav a {
       display: block; }
-    footer .wrapper .social-media-links a {
-      margin: 0 0.5rem;
-      transition: all .2s ease-in-out; }
-      footer .wrapper .social-media-links a img {
-        height: 30px;
-        width: 30px; }
-      footer .wrapper .social-media-links a:hover {
-        opacity: .8; }
+  footer .social-media-links a {
+    margin: 0 0.5rem;
+    transition: all .2s ease-in-out; }
+    footer .social-media-links a img {
+      height: 30px;
+      width: 20px; }
+    footer .social-media-links a:hover {
+      opacity: .8; }
   footer .copyright {
     font-size: 12.8px; }
 
