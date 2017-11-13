@@ -37,7 +37,6 @@ body {
 
     .site-header .wrapper {
         align-items: center;
-        box-shadow: 0 0 2px 2px darken($primary-color, 20%);
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -163,6 +162,11 @@ section#welcome {
         &:hover {
             background-color: darken($welcome-background-cta-background-color, 5%);
         }
+    }
+
+    img {
+        height: auto;
+        width: 70%;
     }
 }
 
@@ -631,20 +635,20 @@ footer {
         .site-nav a {
             display: block;
         }
+    }
 
-        .social-media-links {
-            a {
-                margin: 0 $base-padding;
-                transition: all .2s ease-in-out;
+    .social-media-links {
+        a {
+            margin: 0 $base-padding;
+            transition: all .2s ease-in-out;
 
-                img {
-                    height: 30px;
-                    width: 30px;
-                }
+            img {
+                height: 30px;
+                width: 20px;
+            }
 
-                &:hover {
-                    opacity: .8;
-                }
+            &:hover {
+                opacity: .8;
             }
         }
     }

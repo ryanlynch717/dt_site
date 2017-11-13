@@ -2,8 +2,9 @@
   "site-name": "Digital Thunder",
   "site-description": "Move online and engage with your audience through social platforms",
   "blog-name": "Blog",
-  "logo": "Digital Thunder-logo.png",
-  "logo-white": "Digital Thunderhunder.png",
+  "logo": "dt-logo.png",
+  "logo-white": "dthunder.png",
+  "logo-outline": "dt-outline.png",
   "sections": [
     {
       "cssId": "test0",
@@ -12,7 +13,7 @@
         "alignment": "top"
       },
       "content": {
-        "title": "what is Digital Thunder",
+        "title": "A bit about us",
         "description": "In the modern era, the web and social media is king. As a result, small businesses struggle to attract new customers. The main reason behind this is the soaring use of digital communications. Customers now typically go online to look for the best deals before even thinking about the high street.<br /><br />Local businesses have been lagging behind for too long, it's time to get your business a strong online presence - and here at Digital Thunder, we want to help!<br /><br />The services we offer include beautifully designed websites, branding, digital and physical advertising and social media marketing. We can provide any of these services with or without continous digital management, we leave it up to you to decide if you need us after delivery.<br/><br/>So, <span class='dot'>Digital Thunder</span> was born."
       }
     },
