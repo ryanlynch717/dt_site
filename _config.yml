@@ -1,14 +1,14 @@
 # Site settings
 title: Digital Thunder
-email: your-email@domain.com
+email: info@digitalthunder.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Helping to launch your business into the digital era, Digital Thunder can provide
+  Helping to launch your business into the digital era, Digital Thunder provide
   a wide variety of high quality services from web development to graphic design and
   advertising. Get in touch now to chat with us!
-baseurl: "/dt_site" # the subpath of your site, e.g. /blog/
-url: "https://ryanlynch717.github.io/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://digitalthunder.co.uk" # the base hostname & protocol for your site
+twitter_username: ryanlync
+github_username: ryanlynch717
 
 # Build settings
 markdown: kramdown
