@@ -1,28 +1,18 @@
 ---
 layout: default
-title: Digital Thunder
+title: Digital Thunder - Contact
 ---
 
-<section id="welcome">
-  <img src="{{ site.baseurl }}/images/{{ site.data.site-info.logo-outline }}" alt="{{ item.title }}" />
-  <h3>Launching you into the digital era!</h3>
-  <a class="btn cta">Learn more</a>
-</section>
-
-<div id="scrollToHere"></div>
-{% include content.html %}
-
-<section id="contactus">
-  <h1>Get in touch!</h1>
-  <h3>Drop us a line to have an informal chat about what we can do for you</h3>
-
+<section id="contact">
+  <h3>Drop us a line!</h3>
 
   <form action="https://getsimpleform.com/messages?form_api_token=5725082dbbe817e6e43b232db1fcf18c" method="post">
     <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-    <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+    <input type='hidden' name='redirect_to' value="{{ site.baseurl }}/sent.html"/>
     <!-- all your input fields here.... -->
-    <input type='text' name='test' />
-    <input type='submit' value='Test form' />
+    <input class="contact-input email" type='email' name='email' placeholder="Enter your email"/>
+    <input class="contact-input title"  type='text' name='title' placeholder="Enter a title"/>
+    <textarea class="contact-input message" resize="false" type='text' name='message' style="overflow:auto; resize: none;" placeholder="Type your message"></textarea>
+    <input class="btn submit-contact-button" type='submit' value='Send'/>
   </form>
-
 </section>
