@@ -89,8 +89,8 @@
       "image": "story/place-discovery.png",
       "content": {
         "icon": "map-of-roads.svg",
-        "title": "Web Design",
-        "description": "<span class='dot'>Digital Thunder</span> lorem ipsum <br /><br />"
+        "title": "Web Development",
+        "description": "We build a wide variety of beautiful websites, accessible on devices of all shapes and sizes. From a basic advertising site to portfolios, blogs and e-commerce. Get in touch to find out what we can do for you!"
       }
     },
     {
@@ -102,8 +102,8 @@
       "image": "story/social-sharing.png",
       "content": {
         "icon": "network.svg",
-        "title": "Branding Logos",
-        "description": "<span class='dot'>Digital Thunder</span>lorem ipsum <br /><br />"
+        "title": "Graphic Design",
+        "description": "Logos are an important part of your brand. Here at Digital Thunder we can help to give your business a fresh lick of paint with modern logo and graphic design service."
       }
     },
     {
@@ -115,8 +115,8 @@
       "image": "story/offline-app.png",
       "content": {
         "icon": "cloud-computing.svg",
-        "title": "Advertising Content",
-        "description": "lorem ipsum <br /><br />"
+        "title": "Advertising",
+        "description": "Posters, flyers and business cards need to be sharp and attention grabbing! Modernise all of your content with professional consultancy, design and production from Digital Thunder."
       }
     }
   ]
