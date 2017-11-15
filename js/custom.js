@@ -6,8 +6,9 @@ $( document ).ready(function() {
     },550);
   });
 
-  // $('.menu-icon').click(function() {
-  //   console.log('hello');
-  //   $(this).toggleClass('highlight');
-  // });
+  $('.submit-contact-button').click(function() {
+    // Validate input is not empty
+
+  });
+
 });
