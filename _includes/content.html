@@ -8,14 +8,14 @@
     <!-- section image -->
     {% if section.image %}
       <div class="image">
-        <img src="{{ site.baseurl }}/images/{{ section.image }}" alt="{{ section.content.title }}" />
+        <img src="{{ site.requireUrl }}/images/{{ section.image }}" alt="{{ section.content.title }}" />
       </div>
     {% endif %}
 
     <div class="content">
       <!-- section icon -->
       {% if section.content.icon %}
-        <img class="icon" src="{{ site.baseurl }}/images/icons/{{ section.content.icon }}" alt="{{ section.content.title }}" />
+        <img class="icon" src="{{ site.requireUrl }}/images/icons/{{ section.content.icon }}" alt="{{ section.content.title }}" />
       {% endif %}
 
       <!-- section title -->
@@ -35,7 +35,7 @@
             <div class="section-item" style="background-color:{{item.backgroundColor}}; color:{{item.textColor}}">
               {% if item.icon %}
                 <div class="item-icon-wrapper" style="background-color:{{item.iconBackgroundColor}};">
-                  <img class="item-icon" src="{{ site.baseurl }}/images/icons/{{ item.icon }}" alt="{{ item.title }}" />
+                  <img class="item-icon" src="{{ site.requireUrl }}/images/icons/{{ item.icon }}" alt="{{ item.title }}" />
                 </div>
               {% endif %}
               <p class="item-title">{{ item.itemTitle }}{{ item.metric }}</p>

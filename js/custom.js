@@ -11,4 +11,9 @@ $( document ).ready(function() {
 
   });
 
+  $('.navigate-to-contact').click(function() {
+    // Validate input is not empty
+
+  });
+
 });

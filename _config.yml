@@ -7,6 +7,7 @@ description: > # this means to ignore newlines until "baseurl:"
   advertising. Get in touch now to chat with us!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://digitalthunder.co.uk" # the base hostname & protocol for your site
+requireUrl: "http://digitalthunder.co.uk"
 twitter_username: ryanlync
 github_username: ryanlynch717
 
