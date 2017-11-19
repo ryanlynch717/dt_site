@@ -413,7 +413,8 @@ section {
 
 .logo {
   height: auto;
-  width: 39px; }
+  width: 68px;
+  padding-top: 5px; }
 
 /**
  * Site header
@@ -961,6 +962,17 @@ section#contactus {
           padding: 1rem;
           width: 70%; }
 
+/*
+* Content Sections
+*/
+section#section-graphic-design .graphic-design-img {
+  width: 60%;
+  height: auto; }
+
+section#section-web-development .web-desktop-img {
+  width: 60%;
+  height: auto; }
+
 footer {
   background-color: #444350;
   color: #fff;
@@ -1010,6 +1022,9 @@ footer {
       text-decoration: none; }
     footer .wrapper .site-nav a {
       display: block; }
+    footer .wrapper .site-nav li.active a {
+      color: lightgray;
+      cursor: default; }
   footer .social-media-links a {
     margin: 0 0.5rem;
     transition: all .2s ease-in-out; }
