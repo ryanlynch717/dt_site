@@ -1,6 +1,6 @@
 {% for item in site.data.navigation.items %}
   <a
-    class="page-link"
+    class="page-link {% if item.url == page.url %}active{% endif %}"
     href="{{ site.requireUrl }}/{{ item.url }}"
     alt="{{ item.title }}"
   >

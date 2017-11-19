@@ -8,7 +8,7 @@
     <!-- section image -->
     {% if section.image %}
       <div class="image">
-        <img src="{{ site.requireUrl }}/images/{{ section.image }}" alt="{{ section.content.title }}" />
+        <img class="{{ section.imageCssId }}" src="{{ site.requireUrl }}/images/{{ section.image }}" alt="{{ section.content.title }}" />
       </div>
     {% endif %}
 

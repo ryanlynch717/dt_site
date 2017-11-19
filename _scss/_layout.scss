@@ -8,14 +8,15 @@ body {
     line-height: $base-line-height;
 }
 
-    section {
-        padding-bottom: $header-height;
-        padding-top: $header-height;
-    }
+section {
+    padding-bottom: $header-height;
+    padding-top: $header-height;
+}
 
 .logo {
     height: auto;
-    width: 39px;
+    width: 68px;
+    padding-top: 5px;
 }
 
 
@@ -634,6 +635,21 @@ section#contactus {
     }
 }
 
+/*
+* Content Sections
+*/
+section#section-graphic-design {
+    .graphic-design-img {
+        width: 60%;
+        height: auto;
+    }
+}
+section#section-web-development {
+    .web-desktop-img {
+        width: 60%;
+        height: auto;
+    }
+}
 
 footer {
     background-color: #444350;
@@ -684,8 +700,14 @@ footer {
             text-decoration: none;
         }
 
-        .site-nav a {
-            display: block;
+        .site-nav {
+            a {
+                display: block;
+            }
+            li.active a {
+                color: lightgray;
+                cursor: default;
+            }
         }
     }
 

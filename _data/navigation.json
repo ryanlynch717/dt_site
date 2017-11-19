@@ -1,5 +1,8 @@
 {
   "items": [
-    { "title": "contact", "url": "contact.html" }
+    {
+      "title": "contact us",
+      "url": "contact.html"
+    }
   ]
 }

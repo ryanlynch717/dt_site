@@ -3,8 +3,8 @@
   "site-description": "Move online and engage with your audience through social platforms",
   "blog-name": "Blog",
   "logo": "dt-logo.png",
-  "logo-white": "dthunder.png",
-  "logo-outline": "dt-outline.png",
+  // "logo-white": "dthunder.png",
+  // "logo-outline": "dt-outline.png",
   "sections": [
     {
       "cssId": "test0",
@@ -14,7 +14,7 @@
       },
       "content": {
         "title": "A bit about us",
-        "description": "In the modern era, the web and social media is king. As a result, small businesses struggle to attract new customers. The main reason behind this is the soaring use of digital communications. Customers now typically go online to look for the best deals before even thinking about the high street.<br /><br />Local businesses have been lagging behind for too long, it's time to get your business a strong online presence - and here at Digital Thunder, we want to help!<br /><br />The services we offer include beautifully designed websites, branding, digital and physical advertising and social media marketing. We can provide any of these services with or without continous digital management, we leave it up to you to decide if you need us after delivery.<br/><br/>"
+        "description": "In the modern era, web and social media is king. As a result, small businesses struggle to attract new customers. The main reason behind this is the soaring use of digital communications. Customers now typically go online to look for the best deals before even thinking about the high street.<br /><br />Local businesses have been lagging behind for too long, it's time to get your business a strong online presence - and here at Digital Thunder, we want to help!<br /><br />The services we offer include beautifully designed websites, branding, digital and physical advertising and social media marketing. We can provide any of these services with or without continous digital management, we leave it up to you to decide if you need us after delivery.<br/><br/>"
       }
     },
     {
@@ -81,12 +81,13 @@
       }
     },
     {
-      "cssId": "test3",
+      "cssId": "section-web-development",
       "backgroundColor": "#eee",
       "layout": {
         "alignment": "left"
       },
-      "image": "story/place-discovery.png",
+      "image": "story/web-desktop.png",
+      "imageCssId": "web-desktop-img",
       "content": {
         "icon": "map-of-roads.svg",
         "title": "Web Development",
@@ -94,12 +95,13 @@
       }
     },
     {
-      "cssId": "test2",
+      "cssId": "section-graphic-design",
       "backgroundColor": "#fff",
       "layout": {
         "alignment": "right"
       },
-      "image": "story/social-sharing.png",
+      "image": "story/clifford-media.png",
+      "imageCssId": "graphic-design-img",
       "content": {
         "icon": "network.svg",
         "title": "Graphic Design",
@@ -107,12 +109,13 @@
       }
     },
     {
-      "cssId": "test1",
+      "cssId": "section-advertising",
       "backgroundColor": "#eee",
       "layout": {
         "alignment": "left"
       },
       "image": "story/offline-app.png",
+      "imageCssId": "advertising-img",
       "content": {
         "icon": "cloud-computing.svg",
         "title": "Advertising",
