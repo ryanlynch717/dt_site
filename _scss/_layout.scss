@@ -19,106 +19,60 @@ section {
     padding-top: 5px;
 }
 
-
 /**
- * Site header
+ * Site header navigation
  */
-.site-header {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,7db9e8+100 */
+.hero-head .navbar, #navbarMenu {
     background: rgb(51, 51, 51); /* Old browsers */
-    background: -moz-linear-gradient(top, rgba( $nav-color, 1) 0%, rgba( $nav-color, .9) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba( $nav-color, 1) 0%, rgba( $nav-color, .9) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba( $nav-color, 1) 0%, rgba( $nav-color, .9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
+
+    .navbar-burger, .page-link {
+        color: white;
+    }
 }
 
-    .site-header .wrapper {
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        height: $header-height;
-        justify-content: flex-start;
+#navbarMenu .navbar-end a.navbar-item:hover {
+    background: rgb(59, 57, 57);
+}
 
-        &:after {
-            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,7db9e8+100 */
-            background: rgb(51, 175, 212); /* Old browsers */
-            background: -moz-linear-gradient(top, rgba( $nav-color, 1) 0%, rgba( $nav-color, .9) 100%); /* FF3.6-15 */
-            background: -webkit-linear-gradient(top, rgba( $nav-color, 1) 0%, rgba( $nav-color, .9) 100%); /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(to bottom, rgba( $nav-color, 1) 0%, rgba( $nav-color, .9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-            bottom: 0;
-            content: '';
-            display: none;
-            height: 5px;
-            position: absolute;
-            width: 100%;
-        }
+.site-title {
+    color: $nav-font-color;
+    flex: 2;
+    font-family: $nav-font;
+    font-size: $nav-font-size;
+    line-height: 0;
+    text-decoration: none;
 
-        .logo {
-            margin-left: ($base-padding * 3);
-        }
+    &:visited,
+    &:hover { color: $nav-font-color; }
 
-        .trigger {
-            display: none;
+    &:after {
+        content: '.';
+        color: $highlight-color;
+    }
+}
 
-            @include media-query($large) { display: block; }
-        }
+.site-nav { flex: 1; text-align: right; }
+.site-nav a {
+    color: $nav-font-color;
+    font-family: $base-font-family;
+    margin-left: $base-padding;
+    text-decoration: none;
+}
 
-        .site-title,
-        .site-nav {
-            padding: ($base-padding * 3);
+.menu-icon {
+    display: block;
+    line-height: 0;
+    text-align: right;
 
-            .page-link {
-                color: white;
-            }
-        }
-
-        .site-title {
-            color: $nav-font-color;
-            flex: 2;
-            font-family: $nav-font;
-            font-size: $nav-font-size;
-            line-height: 0;
-            text-decoration: none;
-
-            &:visited,
-            &:hover { color: $nav-font-color; }
-
-            &:after {
-                content: '.';
-                color: $highlight-color;
-            }
-        }
-
-        .site-nav { flex: 1; text-align: right; }
-        .site-nav a {
-            color: $nav-font-color;
-            font-family: $base-font-family;
-            margin-left: $base-padding;
-            text-decoration: none;
-        }
-
-        .menu-icon {
-            display: block;
-            line-height: 0;
-            text-align: right;
-
-            @include media-query($large) {
-                display: none;
-            }
-
-            > svg {
-                height: 15px;
-                width: 18px;
-            }
-        }
+    @include media-query($large) {
+        display: none;
     }
 
+    > svg {
+        height: 15px;
+        width: 18px;
+    }
+}
 
 /**
  * Welcome section

@@ -1,6 +1,7 @@
 {% for item in site.data.navigation.items %}
   <a
-    class="page-link {% if item.url == page.url %}active{% endif %}"
+    id="navbar-item"
+    class="navbar-item{% if item.url == page.url %}is-active{% endif %} page-link"
     href="{{ site.requireUrl }}/{{ item.url }}"
     alt="{{ item.title }}"
   >
