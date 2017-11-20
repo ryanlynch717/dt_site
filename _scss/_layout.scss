@@ -3,7 +3,7 @@ $base-padding: .5rem;
 
 body {
     background-color: $primary-color;
-    font-family: 'OpenSans';
+    font-family: 'Muli', sans-serif, 'OpenSans';
     font-size: $base-font-size;
     line-height: $base-line-height;
 }
@@ -25,10 +25,10 @@ section {
  */
 .site-header {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,7db9e8+100 */
-    background: rgb(255,255,255); /* Old browsers */
-    background: -moz-linear-gradient(top, rgba( $primary-color, 1) 0%, rgba( $primary-color, .9) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba( $primary-color, 1) 0%, rgba( $primary-color, .9) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba( $primary-color, 1) 0%, rgba( $primary-color, .9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: rgb(51, 51, 51); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba( $nav-color, 1) 0%, rgba( $nav-color, .9) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba( $nav-color, 1) 0%, rgba( $nav-color, .9) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba( $nav-color, 1) 0%, rgba( $nav-color, .9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
     position: fixed;
     top: 0;
@@ -47,9 +47,9 @@ section {
         &:after {
             /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,7db9e8+100 */
             background: rgb(51, 175, 212); /* Old browsers */
-            background: -moz-linear-gradient(top, rgba( $primary-color, 1) 0%, rgba( $primary-color, .9) 100%); /* FF3.6-15 */
-            background: -webkit-linear-gradient(top, rgba( $primary-color, 1) 0%, rgba( $primary-color, .9) 100%); /* Chrome10-25,Safari5.1-6 */
-            background: linear-gradient(to bottom, rgba( $primary-color, 1) 0%, rgba( $primary-color, .9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            background: -moz-linear-gradient(top, rgba( $nav-color, 1) 0%, rgba( $nav-color, .9) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top, rgba( $nav-color, 1) 0%, rgba( $nav-color, .9) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom, rgba( $nav-color, 1) 0%, rgba( $nav-color, .9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
             bottom: 0;
             content: '';
@@ -59,9 +59,9 @@ section {
             width: 100%;
         }
 
-            .logo {
-                margin-left: ($base-padding * 3);
-            }
+        .logo {
+            margin-left: ($base-padding * 3);
+        }
 
         .trigger {
             display: none;
@@ -72,6 +72,10 @@ section {
         .site-title,
         .site-nav {
             padding: ($base-padding * 3);
+
+            .page-link {
+                color: white;
+            }
         }
 
         .site-title {

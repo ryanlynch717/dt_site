@@ -1,6 +1,9 @@
 {
     "font-sans": "Helvetica, sans-serif",
 
+    "nav-color": "#333333",
+    "nav-text-color": "#ffffff",
+
     "primary-color": "#49ced9",
     "secondary-color": "#139fc2",
     "tertiary-color": "#444350",
