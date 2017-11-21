@@ -402,7 +402,7 @@ template {
   display: none; }
 
 body {
-  background-color: #49ced9;
+  background-color: #333333;
   font-family: 'Muli', sans-serif, 'OpenSans';
   font-size: 16px;
   line-height: 1.5; }
@@ -424,6 +424,10 @@ section {
   /* Old browsers */ }
   .hero-head .navbar .navbar-burger, .hero-head .navbar .page-link, #navbarMenu .navbar-burger, #navbarMenu .page-link {
     color: white; }
+
+#navbarMenu .navbar-end a.navbar-item .is-active {
+  border-bottom: white 1px solid;
+  transition: all 5s; }
 
 #navbarMenu .navbar-end a.navbar-item:hover {
   background: #3b3939; }
@@ -509,11 +513,8 @@ section#welcome {
     font-weight: normal;
     margin-bottom: 2.5rem;
     text-shadow: 0px 2px 5px black; }
-  section#welcome .btn {
-    background-color: #56d2f1;
-    color: #fff; }
-    section#welcome .btn:hover {
-      background-color: #3eccef; }
+  section#welcome .is-info:hover {
+    background-color: #3eccef; }
   section#welcome img {
     height: auto;
     width: 70%; }
@@ -570,21 +571,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "OpenSansCondensed";
   text-decoration: none; }
 
-.btn, .button {
-  background-color: #2a7ae2;
-  border-radius: 25px;
-  color: #fff;
-  cursor: pointer;
-  padding: 1rem 2rem;
-  transition: all .2s ease-in-out; }
-  .btn:hover, .button:hover {
-    background-color: #1d6dd5; }
-
 img {
   height: auto;
   width: 100%; }
 
-section.content {
+section.site-content {
   -ms-flex-align: center;
       align-items: center;
   display: -ms-flexbox;
@@ -593,70 +584,70 @@ section.content {
       justify-content: space-around;
   padding: 1.5rem; }
   @media screen and (min-width: 769px) {
-    section.content {
+    section.site-content {
       padding: 60px; } }
-  section.content.columns {
+  section.site-content.columns {
     margin: 0;
     padding-left: 0;
     padding-right: 0; }
-    section.content.columns .content {
+    section.site-content.columns .site-content {
       margin: 0; }
-  section.content.left {
+  section.site-content.left {
     -ms-flex-direction: column;
         flex-direction: column; }
     @media screen and (min-width: 769px) {
-      section.content.left {
+      section.site-content.left {
         -ms-flex-direction: row;
             flex-direction: row; } }
-  section.content.right {
+  section.site-content.right {
     -ms-flex-direction: column;
         flex-direction: column; }
     @media screen and (min-width: 769px) {
-      section.content.right {
+      section.site-content.right {
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse; } }
-  section.content.top {
+  section.site-content.top {
     -ms-flex-direction: column;
         flex-direction: column; }
     @media screen and (min-width: 769px) {
-      section.content.top {
+      section.site-content.top {
         -ms-flex-direction: column;
             flex-direction: column; } }
-    section.content.top .content {
+    section.site-content.top .site-content {
       -ms-flex: 2;
           flex: 2; }
       @media screen and (min-width: 769px) {
-        section.content.top .content {
+        section.site-content.top .site-content {
           margin: 3rem;
           max-width: 769px; } }
-  section.content.bottom {
+  section.site-content.bottom {
     -ms-flex-direction: column;
         flex-direction: column; }
     @media screen and (min-width: 769px) {
-      section.content.bottom {
+      section.site-content.bottom {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse; } }
-    section.content.bottom .content {
+    section.site-content.bottom .site-content {
       -ms-flex: 2;
           flex: 2; }
       @media screen and (min-width: 769px) {
-        section.content.bottom .content {
+        section.site-content.bottom .site-content {
           margin: 3rem;
           max-width: 769px; } }
-  section.content .icon {
+  section.site-content .icon {
     display: none;
     width: 80px; }
     @media screen and (min-width: 769px) {
-      section.content .icon {
+      section.site-content .icon {
         display: block; } }
-  section.content .image {
+  section.site-content .image {
     -ms-flex: 2;
         flex: 2; }
-  section.content .content {
+  section.site-content .site-content {
     -ms-flex: 2;
         flex: 2; }
     @media screen and (min-width: 769px) {
-      section.content .content {
+      section.site-content .site-content {
         margin: 3rem; } }
 
 .cards .section-item-wrapper {
@@ -924,6 +915,9 @@ section#contactus {
 /*
 * Content Sections
 */
+#section {
+  margin-bottom: none; }
+
 section#section-graphic-design .graphic-design-img {
   width: 60%;
   height: auto; }

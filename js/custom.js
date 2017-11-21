@@ -11,9 +11,12 @@ $( document ).ready(function() {
 
   });
 
-  $('.navigate-to-contact').click(function() {
-    // Validate input is not empty
-
+  $('.navbar-item').click(function(e) {
+    // @TODO is-active class is not working
+    var item = e.currentTarget.classList[2];
+    // Remove active classes from all navbar-items
+    $('.navbar-item').removeClass('is-active');
+    $(this).addClass('is-active');
   });
 });
 
