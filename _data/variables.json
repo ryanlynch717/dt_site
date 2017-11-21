@@ -4,7 +4,7 @@
     "nav-color": "#333333",
     "nav-text-color": "#ffffff",
 
-    "primary-color": "#49ced9",
+    "primary-color": "#333333",
     "secondary-color": "#139fc2",
     "tertiary-color": "#444350",
 
@@ -19,8 +19,8 @@
     "welcome-background-color": "#1F2025",
     "welcome-background-text-color": "#fff",
     "welcome-background-image": "url(../images/cover.jpg)",
-    "welcome-background-cta-background-color": "#56d2f1",
-    "welcome-background-cta-text-color": "#fff",
+    "welcome-background-btn-background-color": "#56d2f1",
+    "welcome-background-btn-text-color": "#fff",
 
     "default-image": "url(../images/default-alt.svg)",
     "logo": "url(../images/dt-logo.png)"

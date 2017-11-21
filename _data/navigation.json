@@ -2,11 +2,13 @@
   "items": [
     {
       "title": "Contact Us",
-      "url": "contact.html"
+      "url": "contact.html",
+      "class": "contact"
     },
     {
       "title": "Portfolio",
-      "url": "portfolio.html"
+      "url": "portfolio.html",
+      "class": "portfolio"
     }
   ]
 }

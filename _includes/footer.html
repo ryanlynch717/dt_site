@@ -3,9 +3,6 @@
   {% include logo.html logo=site.data.site-info.logo-white %}
 
   <div class="wrapper">
-    <div class="site-nav">
-      {% include navigation.html %}
-    </div>
   </div>
     <div class="social-media-links">
       {% include social-media-links.html %}
@@ -13,11 +10,11 @@
 
   <div class="copyright">
     Copyright &copy;
+    {{ site.data.site-info.site-name }}
     <script type="text/javascript">
       var d = new Date()
       document.write(d.getFullYear())
     </script>
-    {{ site.data.site-info.site-name }}
   </div>
 </footer>
 

@@ -1,7 +1,7 @@
 {% for section in site.data.site-info.sections %}
   <section
     id="{{ section.cssId }}"
-    class="content {{ section.layout.alignment }}"
+    class="site-content {{ section.layout.alignment }}"
     style="background-color: {{ section.backgroundColor }};"
   >
 
@@ -12,7 +12,7 @@
       </div>
     {% endif %}
 
-    <div class="content">
+    <div class="site-content">
       <!-- section icon -->
       {% if section.content.icon %}
         <img class="icon" src="{{ site.requireUrl }}/images/icons/{{ section.content.icon }}" alt="{{ section.content.title }}" />

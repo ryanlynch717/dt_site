@@ -23,15 +23,24 @@ section {
  * Site header navigation
  */
 .hero-head .navbar, #navbarMenu {
-    background: rgb(51, 51, 51); /* Old browsers */
+    background: #333333; /* Old browsers */
 
     .navbar-burger, .page-link {
         color: white;
     }
+
+
 }
 
-#navbarMenu .navbar-end a.navbar-item:hover {
-    background: rgb(59, 57, 57);
+#navbarMenu .navbar-end a.navbar-item {
+    .is-active {
+        border-bottom: white 1px solid;
+        transition: all 5s;
+    }
+
+    &:hover {
+        background: rgb(59, 57, 57);
+    }
 }
 
 .site-title {
@@ -114,12 +123,9 @@ section#welcome {
     h1 { font-size: $nav-font-size * 1.65; padding-top: $header-height; text-shadow: 0px 2px 5px rgba(0, 0, 0, 1); }
     h3 { font-family: 'OpenSans'; font-size: $nav-font-size * .9; font-weight: normal; margin-bottom: ($base-padding * 5); text-shadow: 0px 2px 5px rgba(0, 0, 0, 1); }
 
-    .btn {
-        background-color: $welcome-background-cta-background-color;
-        color: $welcome-background-cta-text-color;
-
+    .is-info {
         &:hover {
-            background-color: darken($welcome-background-cta-background-color, 5%);
+            background-color: darken($welcome-background-btn-background-color, 5%);
         }
     }
 
@@ -152,11 +158,11 @@ section#contact {
     h3 { font-family: 'OpenSans'; font-size: $nav-font-size * .9; font-weight: normal; margin-bottom: ($base-padding * 5); text-shadow: 0px 2px 5px rgba(0, 0, 0, 1); }
 
     .btn {
-        background-color: $welcome-background-cta-background-color;
-        color: $welcome-background-cta-text-color;
+        background-color: $welcome-background-btn-background-color;
+        color: $welcome-background-btn-text-color;
 
         &:hover {
-            background-color: darken($welcome-background-cta-background-color, 5%);
+            background-color: darken($welcome-background-btn-background-color, 5%);
         }
     }
 
@@ -186,25 +192,12 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
-.btn, .button {
-    background-color: $button-background-color;
-    border-radius: 25px;
-    color: $button-text-color;
-    cursor: pointer;
-    padding: ($base-padding * 2) ($base-padding * 4);
-    transition: all .2s ease-in-out;
-
-    &:hover {
-        background-color: darken($button-background-color, 5%);
-    }
-}
-
 img {
     height: auto;
     width: 100%;
 }
 
-section.content {
+section.site-content {
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -219,7 +212,7 @@ section.content {
         padding-left: 0;
         padding-right: 0;
 
-        .content {
+        .site-content {
             margin: 0;
         }
     }
@@ -247,7 +240,7 @@ section.content {
             flex-direction: column;
         }
 
-        .content {
+        .site-content {
             flex: 2;
 
             @include media-query($large) {
@@ -264,7 +257,7 @@ section.content {
             flex-direction: column-reverse;
         }
 
-        .content {
+        .site-content {
             flex: 2;
 
             @include media-query($large) {
@@ -287,7 +280,7 @@ section.content {
         flex: 2;
     }
 
-    .content {
+    .site-content {
         flex: 2;
 
         @include media-query($large) {
@@ -596,6 +589,9 @@ section#contactus {
 /*
 * Content Sections
 */
+#section {
+    margin-bottom: none;
+}
 section#section-graphic-design {
     .graphic-design-img {
         width: 60%;
