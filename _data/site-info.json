@@ -18,7 +18,7 @@
       }
     },
     {
-      "cssId": "test01",
+      "cssId": "what-we-do",
       "backgroundColor": "#eee",
       "textColor": "#333",
       "layout": {
@@ -29,26 +29,26 @@
           {
             "itemTitle": "Mobile friendly",
             "textColor": "#333",
-            "icon": "chart.svg",
+            "icon-img": "chart.svg",
             "description": "Almost everyone has a smart phone these days, so your site must look beautiful on a small screen too"
           },
           {
             "itemTitle": "Beautiful branding",
             "textColor": "#333",
-            "icon": "single.svg",
+            "icon-img": "single.svg",
             "description": "Professionally designed logos and advertising content, which engage a potential customers' interest"
           },
           {
             "itemTitle": "Engaging content",
             "textColor": "#333",
-            "icon": "tools.svg",
+            "icon-img": "tools.svg",
             "description": "It's all about the digital presence, the look and content produced by your social media page will reach more potential customers every day"
           }
         ]
       }
     },
     {
-      "cssId": "test01",
+      "cssId": "digital-facts",
       "backgroundColor": "#333",
       "textColor": "#fff",
       "layout": {
@@ -60,21 +60,21 @@
             "itemTitle": "80",
             "metric": "%",
             "textColor": "#fff",
-            // "icon": "map-of-roads.svg",
+            // "icon-img": "map-of-roads.svg",
             "description": "of consumers look for businesses online, before going to the high street"
           },
           {
             "itemTitle": "65",
             "metric": "%",
             "textColor": "#fff",
-            // "icon": "map-of-roads.svg",
+            // "icon-img": "map-of-roads.svg",
             "description": "of businesses see their profits increase with an online presence"
           },
           {
             "itemTitle": "30",
             "metric": "%",
             "textColor": "#fff",
-            // "icon": "share.svg",
+            // "icon-img": "share.svg",
             "description": "of the public say recognisable branding attracts them to shop there"
           }
         ]
@@ -89,7 +89,7 @@
       "image": "story/web-desktop.png",
       "imageCssId": "web-desktop-img",
       "content": {
-        "icon": "map-of-roads.svg",
+        "icon-img": "map-of-roads.svg",
         "title": "Web Development",
         "description": "We build a wide variety of beautiful websites, accessible on devices of all shapes and sizes. From a basic advertising site to portfolios, blogs and e-commerce. Get in touch to find out what we can do for you!"
       }
@@ -103,7 +103,7 @@
       "image": "story/clifford-media.png",
       "imageCssId": "graphic-design-img",
       "content": {
-        "icon": "network.svg",
+        "icon-img": "network.svg",
         "title": "Graphic Design",
         "description": "Logos are an important part of your brand. Here at Digital Thunder we can help to give your business a fresh lick of paint with modern logo and graphic design service."
       }
@@ -117,7 +117,7 @@
       "image": "story/offline-app.png",
       "imageCssId": "advertising-img",
       "content": {
-        "icon": "cloud-computing.svg",
+        "icon-img": "cloud-computing.svg",
         "title": "Advertising",
         "description": "Posters, flyers and business cards need to be sharp and attention grabbing! Modernise all of your content with professional consultancy, design and production from Digital Thunder."
       }
@@ -132,7 +132,7 @@
     //   },
     //   "image": "story/inapp-cms.png",
     //   "content": {
-    //     "icon": "duplicate-content.svg",
+    //     "icon-img": "duplicate-content.svg",
     //     "title": "In-App CMS",
     //     "description": "Fully control your trail data and create new trails directly from within the app. <br /><br />Increase dwell time by adding relevant interactive material that your guests can engage with when at the location."
     //   }
@@ -145,7 +145,7 @@
     //   },
     //   "image": "story/real-time-data.png",
     //   "content": {
-    //     "icon": "chart.svg",
+    //     "icon-img": "chart.svg",
     //     "title": "Real Time User Data",
     //     "description": "With <span class='dot'>Digital Thunder</span> you can be reactive to data trends by accessing up to the minute metrics on what your guests are doing. <br /><br />Want to know where your guests go when its a sunny day? <br /><br />Want to provide neighboring businesses with footfall metrics so they can optimise their opening hours? <br /><br />With <span class='dot'>Digital Thunder</span> these questions and many more can be answered."
     //   }
@@ -158,46 +158,11 @@
     //   },
     //   "image": "story/visitor-retention.png",
     //   "content": {
-    //     "icon": "single.svg",
+    //     "icon-img": "single.svg",
     //     "title": "Visitor Retention",
     //     "description": "By engaging your guests with interactive material, unlocked by physically being at a location, <span class='dot'>Digital Thunder</span> increases user engagement with you trail. <br /><br />This leads to increased dwell time and ultimately, increased user spend."
     //   }
-    // },
-    // {
-    //   "cssId": "test01",
-    //   "backgroundColor": "#eee",
-    //   "textColor": "#333",
-    //   "layout": {
-    //     "alignment": "cards"
-    //   },
-    //   "content": {
-    //     "items": [
-    //       {
-    //         "itemTitle": "Create",
-    //         "backgroundColor": "#fff",
-    //         "textColor": "#333",
-    //         "icon": "wrench.svg",
-    //         "iconBackgroundColor": "#fff",
-    //         "description": "<span class='dot'>Digital Thunder</span> allows businesses to create as many trails as they want within their own branding area of an app. <br /><br />It's simple, intuitive and quick."
-    //       },
-    //       {
-    //         "itemTitle": "Publish",
-    //         "backgroundColor": "#fff",
-    //         "textColor": "#333",
-    //         "icon": "map-of-roads.svg",
-    //         "iconBackgroundColor": "#fff",
-    //         "description": "<span class='dot'>Digital Thunder</span> allows businesses to create as many trails as they want within their own branding area of an app. <br /><br />It's simple, intuitive and quick."
-    //       },
-    //       {
-    //         "itemTitle": "Measure",
-    //         "backgroundColor": "#fff",
-    //         "textColor": "#333",
-    //         "icon": "chart.svg",
-    //         "iconBackgroundColor": "#fff",
-    //         "description": "<span class='dot'>Digital Thunder</span> allows businesses to create as many trails as they want within their own branding area of an app. <br /><br />It's simple, intuitive and quick."
-    //       }
-    //     ]
-    //   }
     // }
+    //
 //   ]
 // }

@@ -14,8 +14,8 @@
 
     <div class="site-content">
       <!-- section icon -->
-      {% if section.content.icon %}
-        <img class="icon" src="{{ site.requireUrl }}/images/icons/{{ section.content.icon }}" alt="{{ section.content.title }}" />
+      {% if section.content.icon-img %}
+        <img class="icon-img" src="{{ site.requireUrl }}/images/icons/{{ section.content.icon-img }}" alt="{{ section.content.title }}" />
       {% endif %}
 
       <!-- section title -->
@@ -33,9 +33,9 @@
         <div class="section-item-wrapper">
           {% for item in section.content.items %}
             <div class="section-item" style="background-color:{{item.backgroundColor}}; color:{{item.textColor}}">
-              {% if item.icon %}
+              {% if item.icon-img %}
                 <div class="item-icon-wrapper" style="background-color:{{item.iconBackgroundColor}};">
-                  <img class="item-icon" src="{{ site.requireUrl }}/images/icons/{{ item.icon }}" alt="{{ item.title }}" />
+                  <img class="item-icon-img" src="{{ site.requireUrl }}/images/icons/{{ item.icon-img }}" alt="{{ item.title }}" />
                 </div>
               {% endif %}
               <p class="item-title">{{ item.itemTitle }}{{ item.metric }}</p>

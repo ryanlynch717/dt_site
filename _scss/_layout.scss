@@ -15,7 +15,7 @@ section {
 
 .logo {
     height: auto;
-    width: 68px;
+    width: 170px;
     padding-top: 5px;
 }
 
@@ -28,8 +28,6 @@ section {
     .navbar-burger, .page-link {
         color: white;
     }
-
-
 }
 
 #navbarMenu .navbar-end a.navbar-item {
@@ -68,7 +66,7 @@ section {
     text-decoration: none;
 }
 
-.menu-icon {
+.menu-icon-img {
     display: block;
     line-height: 0;
     text-align: right;
@@ -267,7 +265,7 @@ section.site-content {
         }
     }
 
-    .icon {
+    .icon-img {
         display: none;
         width: 80px;
 
@@ -352,7 +350,7 @@ section.site-content {
             width: 100px;
         }
 
-        .item-icon {
+        .item-icon-img {
             height: auto;
             margin: 0 auto;
             width: 70px;
@@ -363,7 +361,7 @@ section.site-content {
         }
     }
 
-    .icon {
+    .icon-img {
         display: none;
         width: 80px;
 
@@ -440,7 +438,7 @@ section.site-content {
             z-index: 1;
         }
 
-        .item-icon {
+        .item-icon-img {
             display: none;
             height: auto;
             margin: 0 auto;
@@ -452,7 +450,7 @@ section.site-content {
         }
     }
 
-    .icon {
+    .icon-img {
         display: none;
         width: 80px;
 
@@ -589,8 +587,11 @@ section#contactus {
 /*
 * Content Sections
 */
-#section {
-    margin-bottom: none;
+#what-we-do {
+    // Nothing yet
+}
+#digital-facts .site-content .section-item-wrapper {
+    padding-bottom: 4%;
 }
 section#section-graphic-design {
     .graphic-design-img {
@@ -603,6 +604,10 @@ section#section-web-development {
         width: 60%;
         height: auto;
     }
+}
+.section-item-wrapper {
+    -webkit-box-sizing: none;
+    box-sizing: none;
 }
 
 footer {
