@@ -1,9 +1,9 @@
 $( document ).ready(function() {
 
-  $('.cta').click(function() {
+  $('.scroll-to-content').click(function() {
     $('html, body').animate({
-      scrollTop: ($('#test0').offset().top)
-    },550);
+      scrollTop: ($('#scrollToHere').offset().top)
+    }, 550);
   });
 
   $('.submit-contact-button').click(function() {
