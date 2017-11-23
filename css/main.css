@@ -404,12 +404,12 @@ template {
 body {
   background-color: #333333;
   font-family: 'Muli', sans-serif, 'OpenSans';
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5; }
 
 section {
-  padding-bottom: 60px;
-  padding-top: 60px; }
+  padding-bottom: 40px;
+  padding-top: 40px; }
 
 .logo {
   height: auto;
@@ -505,7 +505,7 @@ section#welcome {
     text-decoration: none; }
   section#welcome h1 {
     font-size: 2.31rem;
-    padding-top: 60px;
+    padding-top: 40px;
     text-shadow: 0px 2px 5px black; }
   section#welcome h3 {
     font-family: 'OpenSans';
@@ -541,7 +541,7 @@ section#contact {
     text-decoration: none; }
   section#contact h1 {
     font-size: 2.31rem;
-    padding-top: 60px;
+    padding-top: 40px;
     text-shadow: 0px 2px 5px black; }
   section#contact h3 {
     font-family: 'OpenSans';
@@ -585,7 +585,7 @@ section.site-content {
   padding: 1.5rem; }
   @media screen and (min-width: 769px) {
     section.site-content {
-      padding: 60px; } }
+      padding: 40px; } }
   section.site-content.columns {
     margin: 0;
     padding-left: 0;
@@ -655,7 +655,7 @@ section.site-content {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  margin: 0 auto 48px;
+  margin: 0 auto 54px;
   padding: 0; }
   @media screen and (min-width: 769px) {
     .cards .section-item-wrapper {
@@ -697,8 +697,9 @@ section.site-content {
       width: auto; }
     .cards .section-item-wrapper .section-item .item-title {
       font-family: "OpenSansCondensed";
-      font-size: 19.2px;
-      margin-top: 32px; }
+      font-size: 21.6px;
+      margin-top: 36px;
+      margin-bottom: 8px; }
     .cards .section-item-wrapper .section-item .item-description {
       font-family: "OpenSans";
       margin-bottom: 0;
@@ -729,7 +730,7 @@ section.site-content {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  margin: 0 auto 48px;
+  margin: 0 auto 54px;
   padding: 0; }
   @media screen and (min-width: 769px) {
     .columns .section-item-wrapper {
@@ -759,7 +760,7 @@ section.site-content {
     text-align: center; }
     @media screen and (min-width: 769px) {
       .columns .section-item-wrapper .section-item {
-        height: 200px;
+        height: auto;
         padding: 1rem; } }
     .columns .section-item-wrapper .section-item img {
       display: inline-block;
@@ -767,15 +768,17 @@ section.site-content {
       width: auto; }
     .columns .section-item-wrapper .section-item .item-title {
       font-family: "OpenSansCondensed";
-      font-size: 64px;
+      font-size: 72px;
       margin-bottom: 0;
-      margin-top: 32px;
+      margin-top: 0;
       position: relative;
       z-index: 2; }
     .columns .section-item-wrapper .section-item .item-description {
       font-family: "OpenSans";
       margin-bottom: 0;
       margin-top: 0;
+      padding-left: 40px;
+      padding-right: 40px;
       position: relative;
       z-index: 2; }
     .columns .section-item-wrapper .section-item .item-icon-wrapper {
@@ -802,7 +805,7 @@ section.site-content {
         display: block; } }
 
 section#idea {
-  margin-bottom: 60px; }
+  margin-bottom: 40px; }
   section#idea h1, section#idea h3, section#idea .btn {
     font-family: "OpenSansCondensed";
     margin: 0 0 0.875rem;
@@ -810,7 +813,7 @@ section#idea {
     text-decoration: none; }
   section#idea h1 {
     font-size: 2.31rem;
-    padding-top: 60px; }
+    padding-top: 40px; }
   section#idea h3 {
     font-family: 'OpenSans';
     font-size: 1.26rem;
@@ -870,7 +873,7 @@ section#contactus {
     text-decoration: none; }
   section#contactus h1 {
     font-size: 2.31rem;
-    padding-top: 60px;
+    padding-top: 40px;
     margin-bottom: 2rem; }
   section#contactus h3 {
     color: #fff;
@@ -915,8 +918,8 @@ section#contactus {
 /*
 * Content Sections
 */
-#digital-facts .site-content .section-item-wrapper {
-  padding-bottom: 4%; }
+#what-we-do.site-content {
+  padding: 10px; }
 
 section#section-graphic-design .graphic-design-img {
   width: 60%;
@@ -932,8 +935,8 @@ section#section-web-development .web-desktop-img {
 footer {
   background-color: #444350;
   color: #fff;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-top: 40px;
   text-align: center; }
   footer h1, footer h3, footer .btn, footer .button {
     font-family: "OpenSansCondensed";
@@ -943,7 +946,7 @@ footer {
   footer h1 {
     font-size: 2.31rem;
     margin-bottom: 3rem;
-    padding-top: 60px; }
+    padding-top: 40px; }
   footer h3 {
     color: #ddd;
     font-family: 'OpenSans';
@@ -990,7 +993,7 @@ footer {
     footer .social-media-links a:hover {
       opacity: .8; }
   footer .copyright {
-    font-size: 12.8px; }
+    font-size: 14.4px; }
 
 /**
  * Syntax highlighting styles
