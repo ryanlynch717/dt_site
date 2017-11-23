@@ -1,4 +1,4 @@
-$header-height: 60px;
+$header-height: 40px;
 $base-padding: .5rem;
 
 body {
@@ -334,6 +334,7 @@ section.site-content {
             font-family: "OpenSansCondensed";
             font-size: ($base-font-size * 1.2);
             margin-top: ($base-font-size * 2);
+            margin-bottom: 8px;
         }
 
         .item-description {
@@ -401,7 +402,7 @@ section.site-content {
         text-align: center;
 
         @include media-query($large) {
-            height: 200px;
+            height: auto;
             padding: ($base-padding * 2);
         }
 
@@ -415,7 +416,7 @@ section.site-content {
             font-family: "OpenSansCondensed";
             font-size: ($base-font-size * 4);
             margin-bottom: 0;
-            margin-top: ($base-font-size * 2);
+            margin-top: 0;
             position: relative;
             z-index: 2;
         }
@@ -424,6 +425,8 @@ section.site-content {
             font-family: "OpenSans";
             margin-bottom: 0;
             margin-top: 0;
+            padding-left: 40px;
+            padding-right: 40px;
             position: relative;
             z-index: 2;
         }
@@ -589,9 +592,12 @@ section#contactus {
 */
 #what-we-do {
     // Nothing yet
+    &.site-content {
+        padding: 10px;
+    }
 }
 #digital-facts .site-content .section-item-wrapper {
-    padding-bottom: 4%;
+    // padding-bottom: 3%;
 }
 section#section-graphic-design {
     .graphic-design-img {
