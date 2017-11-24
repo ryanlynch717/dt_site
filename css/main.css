@@ -636,7 +636,8 @@ section.site-content {
           max-width: 769px; } }
   section.site-content .icon-img {
     display: none;
-    width: 80px; }
+    width: 80px;
+    margin-bottom: 20px; }
     @media screen and (min-width: 769px) {
       section.site-content .icon-img {
         display: block; } }
@@ -646,6 +647,10 @@ section.site-content {
   section.site-content .site-content {
     -ms-flex: 2;
         flex: 2; }
+    section.site-content .site-content .right {
+      padding-left: 42px; }
+    section.site-content .site-content .left {
+      padding-right: 42px; }
     @media screen and (min-width: 769px) {
       section.site-content .site-content {
         margin: 3rem; } }
@@ -918,20 +923,6 @@ section#contactus {
 /*
 * Content Sections
 */
-#what-we-do.site-content {
-  padding: 10px; }
-
-section#section-graphic-design .graphic-design-img {
-  width: 60%;
-  height: auto; }
-
-section#section-web-development .web-desktop-img {
-  width: 60%;
-  height: auto; }
-
-.section-item-wrapper {
-  box-sizing: none; }
-
 footer {
   background-color: #444350;
   color: #fff;
@@ -994,6 +985,42 @@ footer {
       opacity: .8; }
   footer .copyright {
     font-size: 14.4px; }
+
+.page-content .wrapper section.site-content .image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto; }
+
+.page-content .wrapper section.site-content.right .site-content {
+  padding-left: 35px; }
+
+.page-content .wrapper section.site-content.left .site-content {
+  padding-right: 35px; }
+
+.page-content .wrapper section.site-content .section-item-wrapper {
+  box-sizing: none; }
+
+.page-content .wrapper section.site-content#what-we-do.site-content {
+  padding: 0px; }
+
+.page-content .wrapper section.site-content#digital-facts .section-item-wrapper {
+  padding: 3%; }
+
+.page-content .wrapper section.site-content#section-web-development {
+  padding: 7%; }
+  .page-content .wrapper section.site-content#section-web-development .image img {
+    width: 100%; }
+
+.page-content .wrapper section.site-content#section-graphic-design {
+  padding: 7%; }
+  .page-content .wrapper section.site-content#section-graphic-design .image img {
+    width: 65%; }
+
+.page-content .wrapper section.site-content#section-advertising {
+  padding: 5%; }
+  .page-content .wrapper section.site-content#section-advertising .image img {
+    width: 55%; }
 
 /**
  * Syntax highlighting styles
