@@ -268,6 +268,7 @@ section.site-content {
     .icon-img {
         display: none;
         width: 80px;
+        margin-bottom: 20px;
 
         @include media-query($large) {
             display: block;
@@ -280,6 +281,13 @@ section.site-content {
 
     .site-content {
         flex: 2;
+
+        .right {
+            padding-left: 42px;
+        }
+        .left {
+            padding-right: 42px;
+        }
 
         @include media-query($large) {
             margin: ($base-padding * 6);
@@ -590,32 +598,6 @@ section#contactus {
 /*
 * Content Sections
 */
-#what-we-do {
-    // Nothing yet
-    &.site-content {
-        padding: 10px;
-    }
-}
-#digital-facts .site-content .section-item-wrapper {
-    // padding-bottom: 3%;
-}
-section#section-graphic-design {
-    .graphic-design-img {
-        width: 60%;
-        height: auto;
-    }
-}
-section#section-web-development {
-    .web-desktop-img {
-        width: 60%;
-        height: auto;
-    }
-}
-.section-item-wrapper {
-    -webkit-box-sizing: none;
-    box-sizing: none;
-}
-
 footer {
     background-color: #444350;
     color: #fff;

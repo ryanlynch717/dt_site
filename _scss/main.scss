@@ -40,8 +40,6 @@ $large: 769px;
 $xlarge: 1024px;
 $xxlarge: 1280px;
 
-
-
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -55,13 +53,12 @@ $xxlarge: 1280px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
     "normalize",
     "variables",
     "base",
     "layout",
+    "custom",
     "syntax-highlighting"
 ;

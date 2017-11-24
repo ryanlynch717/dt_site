@@ -1,0 +1,52 @@
+// Custom Section Styling
+.page-content .wrapper {
+    // Generally applied styling
+    section.site-content {
+        .image {
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+                margin: auto;
+            }
+        }
+        &.right .site-content {
+            padding-left: 35px;
+        }
+        &.left .site-content {
+            padding-right: 35px;
+        }
+        .section-item-wrapper {
+            -webkit-box-sizing: none;
+            box-sizing: none;
+        }
+
+        // Specific styling for sections
+        &#what-we-do {
+            &.site-content {
+                padding: 0px;
+            }
+        }
+        &#digital-facts .section-item-wrapper {
+            padding: 3%;
+        }
+        &#section-web-development {
+            padding: 7%;
+            .image img {
+                width: 100%;
+            }
+        }
+        &#section-graphic-design {
+            padding: 7%;
+            .image img {
+                width: 65%;
+            }
+        }
+        &#section-advertising {
+            padding: 5%;
+            .image img {
+                width: 55%;
+            }
+        }
+    }
+}
