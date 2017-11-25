@@ -453,7 +453,7 @@ section {
 
 .site-nav a {
   color: #333333;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Muli", sans-serif, "OpenSans", Helvetica, Arial;
   margin-left: 0.5rem;
   text-decoration: none; }
 
@@ -986,6 +986,17 @@ footer {
   footer .copyright {
     font-size: 14.4px; }
 
+.page-content .wrapper section.site-content #contact-form {
+  padding: 2% 25%;
+  color: white;
+  font-family: "Muli", sans-serif, "OpenSans", Helvetica, Arial; }
+  .page-content .wrapper section.site-content #contact-form .intro-text {
+    height: 50px; }
+  .page-content .wrapper section.site-content #contact-form .form-container {
+    margin-top: 2.5rem; }
+    .page-content .wrapper section.site-content #contact-form .form-container .label {
+      color: white; }
+
 .page-content .wrapper section.site-content .image img {
   width: 100%;
   height: auto;
@@ -1001,24 +1012,24 @@ footer {
 .page-content .wrapper section.site-content .section-item-wrapper {
   box-sizing: none; }
 
-.page-content .wrapper section.site-content#what-we-do.site-content {
+.page-content .wrapper section.site-content#info-cards {
   padding: 0px; }
 
 .page-content .wrapper section.site-content#digital-facts .section-item-wrapper {
   padding: 3%; }
 
 .page-content .wrapper section.site-content#section-web-development {
-  padding: 7%; }
+  padding: 4%; }
   .page-content .wrapper section.site-content#section-web-development .image img {
     width: 100%; }
 
 .page-content .wrapper section.site-content#section-graphic-design {
-  padding: 7%; }
+  padding: 4%; }
   .page-content .wrapper section.site-content#section-graphic-design .image img {
     width: 65%; }
 
 .page-content .wrapper section.site-content#section-advertising {
-  padding: 5%; }
+  padding: 4%; }
   .page-content .wrapper section.site-content#section-advertising .image img {
     width: 55%; }
 
