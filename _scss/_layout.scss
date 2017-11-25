@@ -51,11 +51,6 @@ section {
 
     &:visited,
     &:hover { color: $nav-font-color; }
-
-    &:after {
-        content: '.';
-        color: $highlight-color;
-    }
 }
 
 .site-nav { flex: 1; text-align: right; }
@@ -85,19 +80,6 @@ section {
  * Welcome section
  */
 h1 { margin-bottom: ($base-padding * 4); }
-
-.dot {
-    font-family: $nav-font;
-    text-decoration: none;
-
-    &:visited,
-    &:hover { color: $nav-font-color; }
-
-    &:after {
-        content: '.';
-        color: $highlight-color;
-    }
-}
 
 section#welcome {
     align-items: center;
@@ -624,11 +606,6 @@ footer {
 
         &:visited,
         &:hover { color: #fff; }
-
-        &:after {
-            content: '.';
-            color: $highlight-color;
-        }
     }
 
     .logo {

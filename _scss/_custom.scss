@@ -1,7 +1,26 @@
 // Custom Section Styling
+
 .page-content .wrapper {
     // Generally applied styling
     section.site-content {
+        &.contact-section {
+            background-color: #59adc0;
+        }
+        #contact-form {
+            padding: 2% 25%;
+            color: white;
+            font-family: $base-font-family;
+            .intro-text {
+                height: 50px;
+            }
+            .form-container {
+                margin-top: 2.5rem;
+                .label {
+                    color: white;
+                }
+            }
+        }
+
         .image {
             img {
                 width: 100%;
@@ -20,33 +39,37 @@
             -webkit-box-sizing: none;
             box-sizing: none;
         }
-
         // Specific styling for sections
-        &#what-we-do {
-            &.site-content {
-                padding: 0px;
-            }
+        &#intro-text .site-content {
+
+        }
+        &#info-cards {
+            padding: 0px;
+
         }
         &#digital-facts .section-item-wrapper {
             padding: 3%;
         }
         &#section-web-development {
-            padding: 7%;
+            padding: 4%;
             .image img {
                 width: 100%;
             }
         }
         &#section-graphic-design {
-            padding: 7%;
+            padding: 4%;
             .image img {
                 width: 65%;
             }
         }
         &#section-advertising {
-            padding: 5%;
+            padding: 4%;
             .image img {
                 width: 55%;
             }
         }
+
+
+
     }
 }

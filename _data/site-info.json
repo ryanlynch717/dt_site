@@ -7,7 +7,7 @@
   // "logo-outline": "dt-outline.png",
   "sections": [
     {
-      "cssId": "test0",
+      "cssId": "intro-text",
       "backgroundColor": "#fff",
       "layout": {
         "alignment": "top"
@@ -18,7 +18,7 @@
       }
     },
     {
-      "cssId": "what-we-do",
+      "cssId": "info-cards",
       "backgroundColor": "#eee",
       "textColor": "#333",
       "layout": {
@@ -120,45 +120,6 @@
         "icon-img": "cloud-computing.svg",
         "title": "Advertising",
         "description": "Posters, flyers and business cards need to be sharp and attention grabbing! Modernise all of your content with professional consultancy, design and production from Digital Thunder."
-      }
-    },
-    {
-      "cssId": "test3",
-      "backgroundColor": "#fff",
-      "layout": {
-        "alignment": "right"
-      },
-      "image": "story/XXXXX",
-      "content": {
-        "icon-img": "duplicate-content.svg",
-        "title": "In-App CMS",
-        "description": "Fully control your trail data and create new trails directly from within the app. <br /><br />Increase dwell time by adding relevant interactive material that your guests can engage with when at the location."
-      }
-    },
-    {
-      "cssId": "test2",
-      "backgroundColor": "#eee",
-      "layout": {
-        "alignment": "left"
-      },
-      "image": "story/real-time-data.png",
-      "content": {
-        "icon-img": "chart.svg",
-        "title": "Real Time User Data",
-        "description": "With <span class='dot'>Digital Thunder</span> you can be reactive to data trends by accessing up to the minute metrics on what your guests are doing. <br /><br />Want to know where your guests go when its a sunny day? <br /><br />Want to provide neighboring businesses with footfall metrics so they can optimise their opening hours? <br /><br />With <span class='dot'>Digital Thunder</span> these questions and many more can be answered."
-      }
-    },
-    {
-      "cssId": "test1",
-      "backgroundColor": "#fff",
-      "layout": {
-        "alignment": "right"
-      },
-      "image": "story/XXXX.png",
-      "content": {
-        "icon-img": "single.svg",
-        "title": "Visitor Retention",
-        "description": "By engaging your guests with interactive material, unlocked by physically being at a location, <span class='dot'>Digital Thunder</span> increases user engagement with you trail. <br /><br />This leads to increased dwell time and ultimately, increased user spend."
       }
     }
 

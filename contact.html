@@ -2,96 +2,78 @@
 layout: default
 title: Digital Thunder - Contact
 ---
+<section class="section site-content contact-section">
 
-<!-- <section id="contact"> -->
-  <!-- <h3>Drop us a line!</h3> -->
+  <form id="contact-form" class="container" action="https://formspree.io/ryanlynch717@gmail.com" method="post">
+    <input type="hidden" name="_next" value="http://digitalthunder.co.uk/thanks.html"/>
+    <input type="hidden" name="_subject" value="Enquiry"/>
 
-  <!-- <form action="https://getsimpleform.com/messages?form_api_token=5725082dbbe817e6e43b232db1fcf18c" method="post"> -->
-    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-    <!-- <input type='hidden' name='redirect_to' value="{{ site.requireUrl }}/sent.html"/> -->
-    <!-- all your input fields here.... -->
-    <!-- <input class="contact-input email" type='email' name='email' placeholder="Enter your email"/>
-    <input class="contact-input" type='text' name='title' placeholder="Enter a title"/>
-    <textarea class="contact-input message" resize="false" type='text' name='message' style="overflow:auto; resize: none;" placeholder="Type your message"></textarea>
-    <input class="button is-info is-outlined" type='submit' value='Send'/> -->
-  <!-- </form> -->
-<!-- </section> -->
-
-
-<section class="section">
-  <div class="container ">
-
-    <div class="field">
-      <label class="label">Name</label>
-      <div class="control">
-        <input class="input" type="text" placeholder="Text input">
-      </div>
+    <div class="intro-text">
+      <h2>Complete the form below to get in touch with one of our team.
+        Please include as much detail as possible and we will get back to you as soon as we can.</h2>
     </div>
 
-    <div class="field">
-      <label class="label">Email</label>
-      <div class="control has-icons-left has-icons-right">
-        <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-        <span class="icon is-small is-left">
-          <i class="fa fa-envelope"></i>
-        </span>
-        <span class="icon is-small is-right">
-          <i class="fa fa-warning"></i>
-        </span>
-      </div>
-      <p class="help is-danger">This email is invalid</p>
-    </div>
+    <div class="form-container">
 
-    <div class="field">
-      <label class="label">Subject</label>
+      <div class="field">
+        <label class="label">Name:</label>
+        <div class="control">
+          <input class="input" type="text" name="name" placeholder="Your name" required>
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Contact number:</label>
+        <div class="control">
+          <input class="input" type="number" name="contact number" placeholder="(optional)">
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">E-mail:</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input is-danger" type="email" name="_replyto" placeholder="Your email" value="hello@">
+          <span class="icon is-small is-left">
+            <i class="fa fa-envelope"></i>
+          </span>
+          <span class="icon is-small is-right">
+            <i class="fa fa-warning"></i>
+          </span>
+        </div>
+      </div>
+
+      <label class="label">What are you most interested in?</label>
       <div class="control">
         <div class="select">
-          <select>
-            <option>Select dropdown</option>
-            <option>With options</option>
+          <select name="select">
+            <option>Increasing sales and profit</option>
+            <option>Reaching more customers</option>
+            <option>Selling products online</option>
+            <option>Improving or refreshing your brand</option>
+            <option>Communicating with your audience</option>
+            <option>Other enquiry (Please specify below)</option>
           </select>
         </div>
       </div>
-    </div>
 
-    <div class="field">
-      <label class="label">Message</label>
-      <div class="control">
-        <textarea class="textarea" placeholder="Textarea"></textarea>
+      <div class="field" style="margin-top: 10px;">
+        <label class="label">Details of your enquiry:</label>
+        <div class="control">
+          <textarea class="textarea" style="overflow:auto;" name="message" placeholder="Textarea"></textarea>
+        </div>
+      </div>
+
+
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link" type="submit">Submit</button>
+        </div>
+        <div class="control">
+          <button class="button is-white">Cancel</button>
+        </div>
+      </div>
+
       </div>
     </div>
-
-    <!--
-    <div class="field">
-      <div class="control">
-        <label class="checkbox">
-          <input type="checkbox">
-          I agree to the <a href="#">terms and conditions</a>
-        </label>
-      </div>
-    </div> -->
-
-    <!-- <div class="field">
-      <div class="control">
-        <label class="radio">
-          <input type="radio" name="question">
-          Yes
-        </label>
-        <label class="radio">
-          <input type="radio" name="question">
-          No
-        </label>
-      </div>
-    </div> -->
-
-    <div class="field is-grouped">
-      <div class="control">
-        <button class="button is-link">Submit</button>
-      </div>
-      <div class="control">
-        <button class="button is-text">Cancel</button>
-      </div>
-    </div>
-
-  </div>
+  </form>
 </section>
