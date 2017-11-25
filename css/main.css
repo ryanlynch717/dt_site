@@ -442,9 +442,6 @@ section {
   text-decoration: none; }
   .site-title:visited, .site-title:hover {
     color: #333333; }
-  .site-title:after {
-    content: '.';
-    color: #2a7ae2; }
 
 .site-nav {
   -ms-flex: 1;
@@ -473,15 +470,6 @@ section {
  */
 h1 {
   margin-bottom: 2rem; }
-
-.dot {
-  font-family: "OpenSansCondensed";
-  text-decoration: none; }
-  .dot:visited, .dot:hover {
-    color: #333333; }
-  .dot:after {
-    content: '.';
-    color: #2a7ae2; }
 
 section#welcome {
   -ms-flex-align: center;
@@ -952,9 +940,6 @@ footer {
     text-decoration: none; }
     footer .site-title:visited, footer .site-title:hover {
       color: #fff; }
-    footer .site-title:after {
-      content: '.';
-      color: #2a7ae2; }
   footer .logo {
     margin-bottom: 2rem;
     width: 30%; }
@@ -985,6 +970,9 @@ footer {
       opacity: .8; }
   footer .copyright {
     font-size: 14.4px; }
+
+.page-content .wrapper section.site-content.contact-section {
+  background-color: #59adc0; }
 
 .page-content .wrapper section.site-content #contact-form {
   padding: 2% 25%;

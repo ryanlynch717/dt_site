@@ -92,23 +92,11 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <!-- <section id="contact"> -->
-  <!-- <h3>Drop us a line!</h3> -->
+        <section class="section site-content contact-section">
 
-  <!-- <form action="https://getsimpleform.com/messages?form_api_token=5725082dbbe817e6e43b232db1fcf18c" method="post"> -->
-    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-    <!-- <input type='hidden' name='redirect_to' value="http://digitalthunder.co.uk/sent.html"/> -->
-    <!-- all your input fields here.... -->
-    <!-- <input class="contact-input email" type='email' name='email' placeholder="Enter your email"/>
-    <input class="contact-input" type='text' name='title' placeholder="Enter a title"/>
-    <textarea class="contact-input message" resize="false" type='text' name='message' style="overflow:auto; resize: none;" placeholder="Type your message"></textarea>
-    <input class="button is-info is-outlined" type='submit' value='Send'/> -->
-  <!-- </form> -->
-<!-- </section> -->
-
-
-<section class="section site-content">
-  <div id="contact-form" class="container">
+  <form id="contact-form" class="container" action="https://formspree.io/ryanlynch717@gmail.com" method="post">
+    <input type="hidden" name="_next" value="http://digitalthunder.co.uk/thanks.html"/>
+    <input type="hidden" name="_subject" value="Enquiry"/>
 
     <div class="intro-text">
       <h2>Complete the form below to get in touch with one of our team.
@@ -120,22 +108,21 @@
       <div class="field">
         <label class="label">Name:</label>
         <div class="control">
-          <input class="input" type="text" placeholder="Your name">
+          <input class="input" type="text" name="name" placeholder="Your name" required>
         </div>
       </div>
 
       <div class="field">
-        <label class="label">Phone number:</label>
+        <label class="label">Contact number:</label>
         <div class="control">
-          <input class="input" type="number" placeholder="This is optional">
+          <input class="input" type="number" name="contact number" placeholder="(optional)">
         </div>
       </div>
-
 
       <div class="field">
         <label class="label">E-mail:</label>
         <div class="control has-icons-left has-icons-right">
-          <input class="input is-danger" type="email" placeholder="Your email" value="hello@email.com">
+          <input class="input is-danger" type="email" name="_replyto" placeholder="Your email" value="hello@">
           <span class="icon is-small is-left">
             <i class="fa fa-envelope"></i>
           </span>
@@ -148,7 +135,7 @@
       <label class="label">What are you most interested in?</label>
       <div class="control">
         <div class="select">
-          <select>
+          <select name="select">
             <option>Increasing sales and profit</option>
             <option>Reaching more customers</option>
             <option>Selling products online</option>
@@ -162,23 +149,23 @@
       <div class="field" style="margin-top: 10px;">
         <label class="label">Details of your enquiry:</label>
         <div class="control">
-          <textarea class="textarea" placeholder="Textarea"></textarea>
+          <textarea class="textarea" style="overflow:auto;" name="message" placeholder="Textarea"></textarea>
         </div>
       </div>
 
 
       <div class="field is-grouped">
         <div class="control">
-          <button class="button is-link">Submit</button>
+          <button class="button is-link" type="submit">Submit</button>
         </div>
         <div class="control">
           <button class="button is-white">Cancel</button>
         </div>
       </div>
 
+      </div>
     </div>
-    </div>
-  </div>
+  </form>
 </section>
 
       </div>
@@ -187,7 +174,7 @@
     <footer>
 
   
-  <a class="site-title dot" href="http://digitalthunder.co.uk/">Digital Thunder</a>
+  <a class="site-title" href="http://digitalthunder.co.uk/">Digital Thunder</a>
 
 
 
