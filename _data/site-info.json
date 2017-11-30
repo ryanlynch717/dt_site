@@ -90,8 +90,8 @@
       "imageCssId": "web-desktop-img",
       "content": {
         "icon-img": "duplicate-content.svg",
-        "title": "Web design and development",
-        "description": "We build a wide variety of beautiful websites, accessible on devices of all shapes and sizes. From a basic advertising site to portfolios, blogs and e-commerce. Get in touch to find out what we can do for you!"
+        "title": "Web design & development",
+        "description": "We build a beautiful websites, which are accessible on devices of all shapes and sizes. You could have a basic platform for advertising your services to a portfolio, blogs or e-commerce site. Get in touch to find out what we can do for you!"
       }
     },
     {
@@ -105,7 +105,7 @@
       "content": {
         "icon-img": "network.svg",
         "title": "Graphics and branding",
-        "description": "Eye catching visuals are an important part of your brand. Here at Digital Thunder we can help to give your business a fresh lick of paint with modern logo and graphic design service."
+        "description": "Eye catching visuals are an important part of your brand. At Digital Thunder we can help give your business a fresh lick of paint with modern logo and graphic design services."
       }
     },
     {
@@ -119,7 +119,21 @@
       "content": {
         "icon-img": "cloud-computing.svg",
         "title": "Advertising",
-        "description": "Posters, flyers and business cards need to be sharp and attention grabbing! Modernise all of your content with professional consultancy, design and production from Digital Thunder."
+        "description": "Posters, flyers and business cards need to be sharp and sleek, demanding attention! Modernise your content with professional consultancy, design and production from Digital Thunder."
+      }
+    },
+    {
+      "cssId": "section-custom-design",
+      "backgroundColor": "#eee",
+      "layout": {
+        "alignment": "right"
+      },
+      "image": "",
+      "imageCssId": "bespoke-design",
+      "content": {
+        "icon-img": "cloud-computing.svg",
+        "title": "Bespoke design",
+        "description": "We offer a custom design service for pretty much anything you could need. Maybe you need help designing a new advertising board, store sign, wedding invitations, birthday banners or party t-shirts. Just send us your ideas or inspiration and we can make it happen."
       }
     }
 
