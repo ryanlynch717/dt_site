@@ -1,0 +1,26 @@
+{
+      "cssId": "digital-facts",
+      "backgroundColor": "#139fc2",
+      "textColor": "#fff",
+      "layout": {
+        "alignment": "columns"
+      },
+      "content": {
+        "items": [
+          {
+            "itemTitle": "78",
+            "metric": "%",
+            "textColor": "#fff",
+            // "icon-img": "map-of-roads.svg",
+            "description": "of shoppers use the internet to purchase or research future purchases every year"
+          },
+          {
+            "itemTitle": "95",
+            "metric": "%",
+            "textColor": "#fff",
+            // "icon-img": "map-of-roads.svg",
+            "description": "of adults aged 18-34 follow their favourite brands on social media"
+          }
+        ]
+      }
+    },

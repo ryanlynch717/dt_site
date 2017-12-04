@@ -12,11 +12,19 @@
     Copyright &copy;
     {{ site.data.site-info.site-name }}
     <script type="text/javascript">
-      var d = new Date()
-      document.write(d.getFullYear())
+      var d = new Date();
+      document.write(d.getFullYear());
     </script>
   </div>
 </footer>
 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="{{ "/js/custom.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="{{ "/js/custom.js" | prepend: site.baseurl }}"></script>
+
+<!-- Wow js animation library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+new WOW({
+  mobile: false,
+}).init();
+</script>

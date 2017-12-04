@@ -858,7 +858,8 @@ section#idea {
  */
 section#contactus {
   background-color: #139fc2;
-  color: #fff; }
+  color: #fff;
+  text-align: center; }
   section#contactus h1, section#contactus h3, section#contactus .btn, section#contactus .button {
     font-family: "OpenSansCondensed";
     margin: 0 0 0.75rem;
@@ -1004,12 +1005,14 @@ footer {
   padding: 0px; }
 
 .page-content .wrapper section.site-content#digital-facts .section-item-wrapper {
-  padding: 3%; }
+  padding: 0; }
+  .page-content .wrapper section.site-content#digital-facts .section-item-wrapper .section-item {
+    background-color: #139fc2; }
 
 .page-content .wrapper section.site-content#section-web-development {
   padding: 6%; }
   .page-content .wrapper section.site-content#section-web-development .image img {
-    width: 100%; }
+    width: 90%; }
 
 .page-content .wrapper section.site-content#section-graphic-design {
   padding: 4%; }

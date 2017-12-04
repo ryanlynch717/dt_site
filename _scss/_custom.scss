@@ -48,12 +48,15 @@
 
         }
         &#digital-facts .section-item-wrapper {
-            padding: 3%;
+            padding: 0;
+            .section-item {
+                background-color: $secondary-color;
+            }
         }
         &#section-web-development {
             padding: 6%;
             .image img {
-                width: 100%;
+                width: 90%;
             }
         }
         &#section-graphic-design {

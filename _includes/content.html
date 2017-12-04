@@ -7,12 +7,12 @@
 
     <!-- section image -->
     {% if section.image %}
-      <div class="image">
+      <div class="{{ section.animateClass }} image" data-wow-duration=".5s" data-wow-delay="0.6s">
         <img class="{{ section.imageCssId }}" src="{{ site.requireUrl }}/images/{{ section.image }}" alt="{{ section.content.title }}" />
       </div>
     {% endif %}
 
-    <div class="site-content">
+    <div class="site-content {{ section.content.animateClass }}" data-wow-duration=".5s" data-wow-delay="0.6s">
       <!-- section icon -->
       {% if section.content.icon-img %}
         <img class="icon-img" src="{{ site.requireUrl }}/images/icons/{{ section.content.icon-img }}" alt="{{ section.content.title }}" />
@@ -32,7 +32,7 @@
       {% if section.content.items %}
         <div class="section-item-wrapper">
           {% for item in section.content.items %}
-            <div class="section-item" style="background-color:{{item.backgroundColor}}; color:{{item.textColor}}">
+            <div class="section-item {{ item.animateClass }}" data-wow-duration=".5s" data-wow-delay="0.6s" style="background-color:{{item.backgroundColor}}; color:{{item.textColor}}">
               {% if item.icon-img %}
                 <div class="item-icon-wrapper" style="background-color:{{item.iconBackgroundColor}};">
                   <img class="item-icon-img" src="{{ site.requireUrl }}/images/icons/{{ item.icon-img }}" alt="{{ item.title }}" />

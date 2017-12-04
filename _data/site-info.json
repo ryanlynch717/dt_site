@@ -14,7 +14,7 @@
       },
       "content": {
         "title": "What do we do?",
-        "description": "In the era of the web and social media, local businesses struggle to keep on top and attract new customers. People typically go online to find the best price before walking down the high street.<br /><br />We at Digital Thunder think that the local business owner can make the most of the times with a strong online presence, and we want to help!<br /><br />The services we offer include beautifully designed websites and branding, digital and physical advertising as well as social media marketing. We can simply create the content you need and you can manage it in your own way, alternatively, we offer continuous management of your online presence. We leave those decisions up to you, but we're here to help."
+        "description": "In the era of the web and social media, small businesses struggle to keep on top and attract new customers. People typically go online to find the best price before they consider the high street.<br /><br />Here at Digital Thunder we want to help you take the leap to online. We can supply beautifully designed websites, logos, and branding. Digital and physical advertising as well as social media marketing."
       }
     },
     {
@@ -27,115 +27,93 @@
       "content": {
         "items": [
           {
+            "itemTitle": "Web development",
+            "textColor": "#333",
+            "icon-img": "coding.svg",
+            // "animateClass": "wow flipX",
+            "description": "We can design and build the site you want, anywhere from small advertising platforms to blogs and portfolio sites"
+          },
+          {
             "itemTitle": "Mobile design",
             "textColor": "#333",
-            "icon-img": "chart.svg",
-            "description": "Mobile devices are everywhere these days, your site will be beautiful on all screen sizes"
+            "icon-img": "smartphone.svg",
+            // "animateClass": "wow rotateIn",
+            "description": "People access the web on devices of all shapes and sizes, your site needs to look great on all of them"
           },
           {
-            "itemTitle": "Modern branding",
+            "itemTitle": "Brand revamp",
             "textColor": "#333",
-            "icon-img": "single.svg",
-            "description": "First impressions are so important! We carefully design your brand to engage and peak interest"
-          },
-          {
-            "itemTitle": "Engaging content",
-            "textColor": "#333",
-            "icon-img": "tools.svg",
-            "description": "It's all about the digital presence, the look and content produced by your social media page will reach more potential customers every day"
-          }
-        ]
-      }
-    },
-    {
-      "cssId": "digital-facts",
-      "backgroundColor": "#333",
-      "textColor": "#fff",
-      "layout": {
-        "alignment": "columns"
-      },
-      "content": {
-        "items": [
-          {
-            "itemTitle": "80",
-            "metric": "%",
-            "textColor": "#fff",
-            // "icon-img": "map-of-roads.svg",
-            "description": "of consumers look for businesses online, before going to the high street"
-          },
-          {
-            "itemTitle": "65",
-            "metric": "%",
-            "textColor": "#fff",
-            // "icon-img": "map-of-roads.svg",
-            "description": "of businesses see their profits increase with an online presence"
-          },
-          {
-            "itemTitle": "30",
-            "metric": "%",
-            "textColor": "#fff",
-            // "icon-img": "share.svg",
-            "description": "of the public say recognisable branding attracts them to shop there"
+            "icon-img": "pencil-case.svg",
+            // "animateClass": "wow rotateIn",
+            "description": "Give your brand a refreshing lift with a modern logo and some attention grabbing marketing content"
           }
         ]
       }
     },
     {
       "cssId": "section-web-development",
-      "backgroundColor": "#eee",
+      "backgroundColor": "#fff",
       "layout": {
         "alignment": "left"
       },
+      // "image": "story/desktop-mobile.png",
       "image": "story/desktop-mobile.png",
       "imageCssId": "web-desktop-img",
+      "animateClass": "wow fadeInLeft",
       "content": {
-        "icon-img": "duplicate-content.svg",
-        "title": "Web design & development",
-        "description": "We build a beautiful websites, which are accessible on devices of all shapes and sizes. You could have a basic platform for advertising your services to a portfolio, blogs or e-commerce site. Get in touch to find out what we can do for you!"
+        // "icon-img": "duplicate-content.svg",
+        "animateClass": "wow fadeInRight",
+        "title": "Web design and development",
+        "description": "Our aim is to build beautiful websites, which work seamlessly on devices of all shapes and sizes. We work on projects big and small, from service advertising landing pages to portfolio sites, blogs and e-commerce sites.<br><br>Get in touch to find out what we can do for you!"
       }
     },
     {
       "cssId": "section-graphic-design",
-      "backgroundColor": "#fff",
+      "backgroundColor": "#eee",
       "layout": {
         "alignment": "right"
       },
       "image": "story/clifford-media.png",
       "imageCssId": "graphic-design-img",
+      "animateClass": "wow fadeInRight",
       "content": {
-        "icon-img": "network.svg",
-        "title": "Graphics and branding",
-        "description": "Eye catching visuals are an important part of your brand. At Digital Thunder we can help give your business a fresh lick of paint with modern logo and graphic design services."
+        // "icon-img": "network.svg",
+        "animateClass": "wow fadeInLeft",
+        "title": "Graphics and logos",
+        "description": "Eye catching graphics are an important part of your brand. At Digital Thunder we can help give your business a fresh lick of paint with modern logo and our creative graphic design service."
       }
     },
     {
       "cssId": "section-advertising",
-      "backgroundColor": "#eee",
+      "backgroundColor": "#fff",
       "layout": {
         "alignment": "left"
       },
       "image": "story/flyer1.png",
       "imageCssId": "advertising-img",
+      "animateClass": "wow fadeInLeft",
       "content": {
-        "icon-img": "cloud-computing.svg",
+        // "icon-img": "cloud-computing.svg",
+        "animateClass": "wow fadeInRight",
         "title": "Advertising",
         "description": "Posters, flyers and business cards need to be sharp and sleek, demanding attention! Modernise your content with professional consultancy, design and production from Digital Thunder."
       }
     },
     {
       "cssId": "section-custom-design",
-      "backgroundColor": "#fff",
+      "backgroundColor": "#eee",
       "layout": {
         "alignment": "right"
       },
       "image": "",
       "imageCssId": "bespoke-design",
+      "animateClass": "wow fadeInRight",
       "content": {
-        "icon-img": "cloud-computing.svg",
+        // "icon-img": "cloud-computing.svg",
+        "animateClass": "wow fadeInLeft",
         "title": "Bespoke design",
-        "description": "We offer a custom design service for pretty much anything you could need. Maybe you need help designing a new advertising board, store sign, wedding invitations, birthday banners or party t-shirts. Just send us your ideas or inspiration and we can make it happen."
+        "description": "We offer a custom design service for anything you need, wedding invitations, advertising boards, store signage, birthday banners or party t-shirts. Just send us your ideas or inspiration and we can make it happen."
       }
     }
-
   ]
 }
