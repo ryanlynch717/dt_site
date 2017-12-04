@@ -16,11 +16,12 @@
 
   <!-- Internal & external stylesheets -->
   <link rel="stylesheet" href="http://digitalthunder.co.uk/css/main.css">
+  <link rel="stylesheet" href="http://digitalthunder.co.uk/css/animate.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Other requires -->
-  <link rel="canonical" href="http://digitalthunder.co.uk/contact.html">
+  <link rel="canonical" href="http://digitalthunder.co.uk/contact/">
   <link rel="alternate" type="application/rss+xml" title="Digital Thunder" href="http://digitalthunder.co.uk/feed.xml" />
 </head>
 
@@ -49,19 +50,10 @@
   <a
     id="navbar-item"
     class="navbar-item page-link contact"
-    href="http://digitalthunder.co.uk/contact.html"
+    href="http://digitalthunder.co.uk/contact"
     alt="Contact Us"
   >
     Contact Us
-  </a>
-
-  <a
-    id="navbar-item"
-    class="navbar-item page-link portfolio"
-    href="http://digitalthunder.co.uk/portfolio.html"
-    alt="Portfolio"
-  >
-    Portfolio
   </a>
 
 
@@ -93,7 +85,6 @@
     <div class="page-content">
       <div class="wrapper">
         <section class="section site-content contact-section">
-
   <form id="contact-form" class="container" action="https://formspree.io/ryanlynch717@gmail.com" method="post">
     <input type="hidden" name="_next" value="http://digitalthunder.co.uk/thanks.html"/>
     <input type="hidden" name="_subject" value="Enquiry"/>
@@ -153,7 +144,6 @@
         </div>
       </div>
 
-
       <div class="field is-grouped">
         <div class="control">
           <button class="button is-link" type="submit">Submit</button>
@@ -163,7 +153,6 @@
         </div>
       </div>
 
-      </div>
     </div>
   </form>
 </section>
@@ -205,15 +194,22 @@
     Copyright &copy;
     Digital Thunder
     <script type="text/javascript">
-      var d = new Date()
-      document.write(d.getFullYear())
+      var d = new Date();
+      document.write(d.getFullYear());
     </script>
   </div>
 </footer>
 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="/js/custom.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
 
+<!-- Wow js animation library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+new WOW({
+  mobile: false,
+}).init();
+</script>
 
   </body>
 
