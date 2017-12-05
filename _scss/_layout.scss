@@ -110,11 +110,15 @@ section#welcome {
 
     h1.title-text {
         font-family: 'Raleway', 'Muli', 'Open Sans';
-        font-size: $welcome-font-size;
         font-weight: normal;
+        font-size: $welcome-font-size / 1.8;
         margin-bottom: ($base-padding * 5);
         text-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
         text-transform: uppercase;
+
+        @include media-query($medium) {
+            font-size: $welcome-font-size;
+        }
     }
 
     .is-info {
