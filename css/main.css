@@ -997,7 +997,12 @@ footer {
     left: 50%;
     top: 0;
     padding-top: 15%;
-    position: absolute; }
+    position: absolute;
+    width: 100%; }
+    @media screen and (max-width: 769px) {
+      .page-content .wrapper #welcome .container-top .title-text {
+        margin-bottom: 0;
+        font-size: 18pt; } }
   .page-content .wrapper #welcome .container-bottom {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
@@ -1005,6 +1010,12 @@ footer {
     bottom: 0;
     padding-bottom: 50px;
     position: absolute; }
+    .page-content .wrapper #welcome .container-bottom .scroll-to-content .navigate-arrow-img {
+      color: #59adc0; }
+    @media screen and (max-width: 769px) {
+      .page-content .wrapper #welcome .container-bottom {
+        left: 45%;
+        padding-bottom: 0; } }
   .page-content .wrapper #welcome .animated {
     -webkit-animation-duration: 2.5s;
     animation-duration: 2.5s;
@@ -1031,12 +1042,6 @@ footer {
   .page-content .wrapper #welcome .bounce {
     -webkit-animation-name: bounce;
     animation-name: bounce; }
-  @media screen and (max-width: 410px) {
-    .page-content .wrapper #welcome .title-text {
-      margin-bottom: 0;
-      font-size: 16pt; } }
-  .page-content .wrapper #welcome .scroll-to-content .navigate-arrow-img {
-    color: #59adc0; }
 
 .page-content .wrapper section.site-content {
   text-align: center; }
@@ -1046,13 +1051,17 @@ footer {
   .page-content .wrapper section.site-content.contact-section {
     background-color: #59adc0; }
   .page-content .wrapper section.site-content #contact-form {
-    padding: 2% 25%;
+    padding: 2% 15%;
     color: white;
-    font-family: "Muli", sans-serif, "OpenSans", Helvetica, Arial; }
+    font-family: "Muli", sans-serif, "OpenSans", Helvetica, Arial;
+    text-align: left; }
     .page-content .wrapper section.site-content #contact-form .intro-text {
       height: 50px; }
     .page-content .wrapper section.site-content #contact-form .form-container {
-      margin-top: 2.5rem; }
+      margin-top: 4.5rem; }
+      @media screen and (min-width: 769px) {
+        .page-content .wrapper section.site-content #contact-form .form-container {
+          margin-top: 2.5rem; } }
       .page-content .wrapper section.site-content #contact-form .form-container .label {
         color: white; }
   .page-content .wrapper section.site-content .image {

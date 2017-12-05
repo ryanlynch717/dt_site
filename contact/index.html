@@ -87,12 +87,12 @@
       <div class="wrapper">
         <section class="section site-content contact-section">
   <form id="contact-form" class="container" action="https://formspree.io/ryanlynch717@gmail.com" method="post">
-    <input type="hidden" name="_next" value="http://digitalthunder.co.uk/thanks.html"/>
+    <input type="hidden" name="_next" value="http://digitalthunder.co.uk/contact/"/>
     <input type="hidden" name="_subject" value="Enquiry"/>
 
     <div class="intro-text">
-      <h2>Complete the form below to get in touch with one of our team.
-        Please include as much detail as possible and we will get back to you as soon as we can.</h2>
+      <h2 class="large-subtitle">Drop us a line</h2>
+      <p>Please include as much detail as possible, we will be in touch as soon as we can.</p>
     </div>
 
     <div class="form-container">
@@ -125,21 +125,36 @@
       </div>
 
       <label class="label">What are you most interested in?</label>
-      <div class="control">
+      <div class="field control">
         <div class="select">
-          <select name="select">
+          <select name="interests">
+            <option>A site to advertise my services</option>
+            <option>A site I can customise myself</option>
+            <option>New graphics or refreshing existing ones</option>
+            <option>Bespoke design</option>
             <option>Increasing sales and profit</option>
-            <option>Reaching more customers</option>
-            <option>Selling products online</option>
-            <option>Improving or refreshing your brand</option>
-            <option>Communicating with your audience</option>
+            <option>Reaching more potential customers</option>
             <option>Other enquiry (Please specify below)</option>
           </select>
         </div>
       </div>
 
+      <label class="label">What is your budget?</label>
+      <div class="fieldcontrol">
+        <div class="select">
+          <select name="budget">
+            <option>Under £100</option>
+            <option>£100 - £300</option>
+            <option>£300 - £600</option>
+            <option>£600 - £1000</option>
+            <option>£1000 - £1600</option>
+            <option>Whatever it takes</option>
+          </select>
+        </div>
+      </div>
+
       <div class="field" style="margin-top: 10px;">
-        <label class="label">Details of your enquiry:</label>
+        <label class="label">Please supply as much information as possible:</label>
         <div class="control">
           <textarea class="textarea" style="overflow:auto;" name="message" placeholder="Textarea"></textarea>
         </div>
