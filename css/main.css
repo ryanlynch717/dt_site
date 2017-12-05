@@ -988,6 +988,11 @@ footer {
     .page-content .wrapper .large-subtitle {
       font-size: 2rem; } }
 
+@media screen and (max-width: 410px) {
+  .page-content .wrapper #welcome .title-text {
+    margin-bottom: 0;
+    font-size: 16pt; } }
+
 .page-content .wrapper #welcome .scroll-to-content .navigate-arrow-img {
   color: #59adc0; }
 
@@ -1008,19 +1013,35 @@ footer {
       margin-top: 2.5rem; }
       .page-content .wrapper section.site-content #contact-form .form-container .label {
         color: white; }
-  .page-content .wrapper section.site-content .image img {
-    width: 60%;
-    height: auto;
-    display: block;
-    margin: auto; }
-  .page-content .wrapper section.site-content.right .site-content {
-    padding-left: 35px; }
-  .page-content .wrapper section.site-content.left .site-content {
-    padding-right: 35px; }
+  .page-content .wrapper section.site-content .image {
+    margin: 20px 0; }
+    @media screen and (min-width: 769px) {
+      .page-content .wrapper section.site-content .image {
+        margin-top: 0; } }
+    .page-content .wrapper section.site-content .image img {
+      width: auto;
+      height: auto;
+      display: block;
+      margin: auto; }
+  .page-content .wrapper section.site-content div.site-content {
+    padding-bottom: 20px; }
+    @media screen and (min-width: 769px) {
+      .page-content .wrapper section.site-content div.site-content {
+        padding-bottom: 0; } }
+  @media screen and (min-width: 769px) {
+    .page-content .wrapper section.site-content.right .site-content {
+      padding-left: 35px; }
+    .page-content .wrapper section.site-content.left .site-content {
+      padding-left: 35px; } }
   .page-content .wrapper section.site-content .section-item-wrapper {
     box-sizing: none; }
   .page-content .wrapper section.site-content#info-cards {
-    padding: 0px; }
+    padding: 0; }
+    .page-content .wrapper section.site-content#info-cards div.site-content {
+      padding-bottom: 0; }
+      @media screen and (max-width: 410px) {
+        .page-content .wrapper section.site-content#info-cards div.site-content .section-item-wrapper {
+          margin: 0; } }
   .page-content .wrapper section.site-content#digital-facts .section-item-wrapper {
     padding: 0; }
     .page-content .wrapper section.site-content#digital-facts .section-item-wrapper .section-item {
@@ -1043,7 +1064,7 @@ footer {
   .page-content .wrapper section.site-content#section-custom-design {
     padding: 3%; }
     .page-content .wrapper section.site-content#section-custom-design .image img {
-      width: 50%; }
+      width: 45%; }
 
 /**
  * Syntax highlighting styles

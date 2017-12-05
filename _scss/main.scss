@@ -35,7 +35,7 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$small: 321px;
+$small: 410px;
 $medium: 569px;
 $large: 769px;
 $xlarge: 1024px;
@@ -50,6 +50,12 @@ $xxlarge: 1280px;
 // }
 @mixin media-query($size) {
     @media screen and (min-width: $size) {
+        @content;
+    }
+}
+
+@mixin media-query-max($size) {
+    @media screen and (max-width: $size) {
         @content;
     }
 }

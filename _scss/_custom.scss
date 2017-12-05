@@ -12,9 +12,17 @@
             font-size: 2rem;
         }
     }
-    #welcome .scroll-to-content {
-        .navigate-arrow-img {
-            color: #59adc0;
+    #welcome {
+        @include media-query-max($small) {
+            .title-text {
+                margin-bottom: 0;
+                font-size: 16pt;
+            }
+        }
+        .scroll-to-content {
+            .navigate-arrow-img {
+                color: #59adc0;
+            }
         }
     }
     section.site-content {
@@ -27,6 +35,7 @@
         &.contact-section {
             background-color: #59adc0;
         }
+
         #contact-form {
             padding: 2% 25%;
             color: white;
@@ -43,19 +52,36 @@
         }
 
         .image {
+            margin: 20px 0;
+
+            @include media-query($large) {
+                margin-top: 0;
+            }
+
             img {
-                width: 60%;
+                width: auto;
                 height: auto;
                 display: block;
                 margin: auto;
             }
         }
-        &.right .site-content {
-            padding-left: 35px;
+
+        div.site-content {
+            padding-bottom: 20px;
+            @include media-query($large) {
+                padding-bottom: 0;
+            }
         }
-        &.left .site-content {
-            padding-right: 35px;
+
+        @include media-query($large) {
+            &.right .site-content {
+                padding-left: 35px;
+            }
+            &.left .site-content {
+                padding-left: 35px;
+            }
         }
+
         .section-item-wrapper {
             -webkit-box-sizing: none;
             box-sizing: none;
@@ -65,8 +91,15 @@
 
         }
         &#info-cards {
-            padding: 0px;
-
+            padding: 0;
+            div.site-content {
+                padding-bottom: 0;
+                .section-item-wrapper {
+                    @include media-query-max($small) {
+                        margin: 0;
+                    }
+                }
+            }
         }
         &#digital-facts .section-item-wrapper {
             padding: 0;
@@ -98,7 +131,7 @@
         &#section-custom-design {
             padding: 3%;
             .image img {
-                width: 50%;
+                width: 45%;
             }
         }
     }
