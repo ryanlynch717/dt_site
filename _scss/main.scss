@@ -21,6 +21,7 @@ $base-line-height: 1.5;
 
 $nav-font: 'OpenSansCondensed';
 $nav-font-size: 1.4rem;
+$welcome-font-size: 38pt;
 $nav-font-color: #333333;
 $highlight-color: #2ae2c9;
 
@@ -39,9 +40,6 @@ $medium: 569px;
 $large: 769px;
 $xlarge: 1024px;
 $xxlarge: 1280px;
-
-// Bulma variable overrides
-// $subtitle-size: $size-8;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

@@ -56,15 +56,14 @@
       "layout": {
         "alignment": "left"
       },
-      // "image": "story/desktop-mobile.png",
-      "image": "story/desktop-mobile.png",
+      "image": "story/web-mobile.png",
       "imageCssId": "web-desktop-img",
       "animateClass": "wow fadeInLeft",
       "content": {
         // "icon-img": "duplicate-content.svg",
         "animateClass": "wow fadeInRight",
-        "title": "Web design and development",
-        "description": "Our aim is to build beautiful websites, which work seamlessly on devices of all shapes and sizes. We work on projects big and small, from service advertising landing pages to portfolio sites, blogs and e-commerce sites.<br><br>Get in touch to find out what we can do for you!"
+        "title": "Web design",
+        "description": "We love building beautiful websites, which work seamlessly on devices of all shapes and sizes.<br><br>Wordpress is the content management system we use for those who need to regularly update their site. For most though, a static website to promote their products or services is a more suitable option.<br/><br/>Have an existing site that needs updating or a full redesign? We can help, just get in touch to get the ball rolling!"
       }
     },
     {
@@ -75,12 +74,12 @@
       },
       "image": "story/clifford-media.png",
       "imageCssId": "graphic-design-img",
-      "animateClass": "wow fadeInRight",
+      // "animateClass": "wow fadeInRight",
       "content": {
         // "icon-img": "network.svg",
-        "animateClass": "wow fadeInLeft",
+        // "animateClass": "wow fadeInLeft",
         "title": "Graphics and logos",
-        "description": "Eye catching graphics are an important part of your brand. At Digital Thunder we can help give your business a fresh lick of paint with modern logo and our creative graphic design service."
+        "description": "We're passionate about design, the look and feel of your brand is a key factor in capturing your audience's attention.<br/><br/>Whether it's a major re-branding exercise or a simple graphic for your facebook page, you'll find our passion in all of our work."
       }
     },
     {
@@ -91,12 +90,12 @@
       },
       "image": "story/flyer1.png",
       "imageCssId": "advertising-img",
-      "animateClass": "wow fadeInLeft",
+      // "animateClass": "wow fadeInLeft",
       "content": {
         // "icon-img": "cloud-computing.svg",
-        "animateClass": "wow fadeInRight",
+        // "animateClass": "wow fadeInRight",
         "title": "Advertising",
-        "description": "Posters, flyers and business cards need to be sharp and sleek, demanding attention! Modernise your content with professional consultancy, design and production from Digital Thunder."
+        "description": "Posters, flyers and business cards simply must be sharp and sleek if you want to grab the readers attention! Get some help from our team designing and producing all of your physical and digital marketing content."
       }
     },
     {
@@ -105,14 +104,14 @@
       "layout": {
         "alignment": "right"
       },
-      "image": "",
+      "image": "story/invitation2.jpg",
       "imageCssId": "bespoke-design",
-      "animateClass": "wow fadeInRight",
+      // "animateClass": "wow fadeInRight",
       "content": {
         // "icon-img": "cloud-computing.svg",
-        "animateClass": "wow fadeInLeft",
+        // "animateClass": "wow fadeInLeft",
         "title": "Bespoke design",
-        "description": "We offer a custom design service for anything you need, wedding invitations, advertising boards, store signage, birthday banners or party t-shirts. Just send us your ideas or inspiration and we can make it happen."
+        "description": "A variety of custom designs are available on request for a items such as; wedding invitations, advertising boards and signage, banners and party t-shirts.<br/><br/>Just send us through your ideas and we can make it happen."
       }
     }
   ]

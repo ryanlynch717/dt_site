@@ -88,10 +88,18 @@ section#welcome {
     color: $welcome-background-text-color;
     display: flex;
     flex-flow: column wrap;
-    height: 100vh;
+    height: 40vh;
     justify-content: center;
     margin: 0;
     padding: 0;
+
+    @include media-query($large) {
+        height: 70vh;
+    }
+
+    @include media-query($xlarge) {
+        height: 100vh;
+    }
 
     h1, h3, .btn {
         font-family: $nav-font;
@@ -100,8 +108,14 @@ section#welcome {
         text-decoration: none;
     }
 
-    h1 { font-size: $nav-font-size * 1.65; padding-top: $header-height; text-shadow: 0px 2px 5px rgba(0, 0, 0, 1); }
-    h3 { font-family: 'OpenSans'; font-size: $nav-font-size * .9; font-weight: normal; margin-bottom: ($base-padding * 5); text-shadow: 0px 2px 5px rgba(0, 0, 0, 1); }
+    h1.title-text {
+        font-family: 'Raleway', 'Muli', 'Open Sans';
+        font-size: $welcome-font-size;
+        font-weight: normal;
+        margin-bottom: ($base-padding * 5);
+        text-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+        text-transform: uppercase;
+    }
 
     .is-info {
         &:hover {
