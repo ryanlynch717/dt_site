@@ -499,11 +499,14 @@ section#welcome {
     text-decoration: none; }
   section#welcome h1.title-text {
     font-family: 'Raleway', 'Muli', 'Open Sans';
-    font-size: 38pt;
     font-weight: normal;
+    font-size: 21.11111pt;
     margin-bottom: 2.5rem;
     text-shadow: 0px 2px 5px black;
     text-transform: uppercase; }
+    @media screen and (min-width: 569px) {
+      section#welcome h1.title-text {
+        font-size: 38pt; } }
   section#welcome .is-info:hover {
     background-color: #3eccef; }
   section#welcome img {
@@ -981,6 +984,9 @@ footer {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 12px; }
+  @media screen and (min-width: 769px) {
+    .page-content .wrapper .large-subtitle {
+      font-size: 2rem; } }
 
 .page-content .wrapper #welcome .scroll-to-content .navigate-arrow-img {
   color: #59adc0; }
