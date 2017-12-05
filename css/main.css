@@ -982,6 +982,9 @@ footer {
   font-weight: 600;
   margin-bottom: 12px; }
 
+.page-content .wrapper #welcome .scroll-to-content .navigate-arrow-img {
+  color: #59adc0; }
+
 .page-content .wrapper section.site-content {
   text-align: center; }
   @media screen and (min-width: 769px) {
