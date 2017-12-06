@@ -34,7 +34,7 @@
             "description": "We can design and build a site that suits you! From small advertising platforms to blogs and portfolio sites"
           },
           {
-            "itemTitle": "Mobile design",
+            "itemTitle": "Mobile first",
             "textColor": "#333",
             "icon-img": "smartphone.svg",
             // "animateClass": "wow rotateIn",
